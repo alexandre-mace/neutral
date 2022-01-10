@@ -2,7 +2,7 @@
     max-width: 1000px;
 }
 body {
-    font-family: 'Satoshi', sans-serif;
+    font-family: 'General Sans', sans-serif;
     font-weight: 500;
     font-size: 19px;
     box-sizing: border-box;
@@ -43,10 +43,26 @@ article {
     margin-top: 3rem;
     padding: 2rem;
 }
+article h2 {
+    background: -webkit-linear-gradient(-70deg, #db469f 0%, #2188ff 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+}
 article:nth-child(2n) {
     background-color: #040d21;
     color: white;
     border-radius: 20px;
+}
+article:nth-child(2n) h2 {
+    background: -webkit-linear-gradient(-70deg, #a2facf 0%, #64acff 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
 }
 article:nth-child(2n) a {
     color: #8193b2;
