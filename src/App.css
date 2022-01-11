@@ -33,7 +33,7 @@ h2 {
     font-weight: 900;
     margin-bottom: 1.2rem;
     margin-top: 0;
-    line-height: 1.1;
+    line-height: 1.2;
 }
 h3 {
     font-size: calc(22px + 0.6vw);
@@ -122,7 +122,7 @@ nav li a {
 }
 article {
     margin-top: 2rem;
-    padding: 2rem;
+    padding: 2rem 2rem 0;
 }
 article img {
     max-width: 100%;
@@ -148,6 +148,7 @@ article:nth-of-type(2n) {
     color: white;
     border-radius: 20px;
     margin-top: 3.5rem;
+    padding-bottom: 2rem;
 }
 article:nth-of-type(2n) h2 {
     background: -webkit-linear-gradient(-70deg, #a2facf 0%, #64acff 100%);
