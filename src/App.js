@@ -99,7 +99,7 @@ function App() {
             </div>
             <div className="container">
                 <div className="row">
-                    <div className="d-none d-md-block mt-5 col-md-2 px-0">
+                    <div className="d-none d-md-block mt-5 col-md-2">
                         <ul className={"lateral-nav pt-4 d-flex flex-column pl-0 justify-content-center"}>
                             {titles.map((title, i) => (
                                 <li key={i} className={activeSection === i ? "lateral-nav-active-item mb-2" : "mb-2"}>
@@ -108,7 +108,7 @@ function App() {
                             ))}
                         </ul>
                     </div>
-                    <div className="col-md-9">
+                    <div className="col-md-8">
                         <article>
                             <h2>Objectif : Sortir des énergies fossiles</h2>
                             <p>Scénarios de production et de consommation électriques permettant l’atteinte de la neutralité carbone à l’horizon 2050</p>
