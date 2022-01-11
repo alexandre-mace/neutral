@@ -1,6 +1,3 @@
-.container:not(:first-child) {
-    max-width: 1000px;
-}
 html {
     scroll-behavior: smooth;
 }
@@ -88,6 +85,40 @@ nav li a {
     font-weight: 500;
     margin-top: 10rem;
     margin-bottom: -2rem;
+}
+.lateral-nav {
+    list-style-type: none;
+    font-size: 1rem;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+.lateral-nav li {
+    padding: 0;
+    margin: 8px;
+    transition: .25s;
+    border-radius: 16px;
+}
+.lateral-nav li:hover {
+    cursor: pointer;
+    box-shadow: 0 0 2px 3px #09d3ac;
+    background-color: rgba(225, 225, 225, 0.82);
+}
+.lateral-nav-active-item a {
+    background-color: rgba(225, 225, 225, 0.82);
+}
+.lateral-nav a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    max-width: 270px;
+    border-radius: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    justify-content: center;
 }
 article {
     margin-top: 2rem;
