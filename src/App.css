@@ -133,10 +133,10 @@ hr {
 .lateral-nav li:hover {
     cursor: pointer;
     box-shadow: 0 0 2px 3px #09d3ac;
-    background-color: rgba(4, 13, 33, 0.08);
+    background-color: rgba(4, 13, 33, 0.06);
 }
 .lateral-nav-active-item a {
-    background-color: rgba(4, 13, 33, 0.08);
+    background-color: rgba(4, 13, 33, 0.06);
 }
 .lateral-nav a {
     width: 100%;
