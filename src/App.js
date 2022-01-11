@@ -184,6 +184,7 @@ function App() {
                             <img src={scen2} alt="LES SCÉNARIOS DE MIX DE PRODUCTION À L’HORIZON 2050 2e partie"/>
                         </article>
 
+                        <hr/>
                         <div ref={sectionRefs[0]} className={"theme"} id={"consommation"}>Consommation</div>
                         <article>
                             <h2>Agir sur la consommation grâce à l’efficacité énergétique, voire la sobriété est indispensable pour atteindre les objectifs climatiques</h2>
@@ -260,6 +261,7 @@ function App() {
                             </section>
                         </article>
 
+                        <hr/>
                         <div ref={sectionRefs[1]} className={"theme"} id={"mix"}>Transformation du mix</div>
                         <article>
                             <h2>Atteindre la neutralité carbone est impossible sans un développement significatif des énergies renouvelables</h2>
@@ -297,6 +299,7 @@ function App() {
                             </section>
                         </article>
 
+                        <hr/>
                         <div ref={sectionRefs[2]} className={"theme"} id={"eco"}>Économie</div>
                         <article>
                             <h2>
@@ -392,6 +395,7 @@ function App() {
                             </section>
                         </article>
 
+                        <hr/>
                         <div ref={sectionRefs[3]} className={"theme"} id={"systeme"}>Système et technologies</div>
                         <article>
                             <h2>Créer un « système hydrogène bas-carbone » performant est un atout pour décarboner certains secteurs difficiles à électrifier, et une nécessité dans les scénarios à très fort développement en renouvelables pour stocker l’énergie</h2>
@@ -470,6 +474,7 @@ function App() {
                             </section>
                         </article>
 
+                        <hr/>
                         <div ref={sectionRefs[4]} className={"theme"} id={"env"}>Espace et environnement </div>
                         <article>
                             <h2>Le développement des énergies renouvelables soulève un enjeu d’occupation de l’espace et de limitation des usages. Il peut s’intensifier sans exercer de pression excessive sur l’artificialisation des sols, mais doit se poursuivre dans chaque territoire en s’attachant à la préservation du cadre de vie</h2>
@@ -583,6 +588,7 @@ function App() {
                             </section>
                         </article>
 
+                        <hr/>
                         <div ref={sectionRefs[5]} className={"theme"} id={"general"}>Général</div>
                         <article>
                             <h2>Pour 2050, le système électrique de la neutralité carbone peut être atteint à un coût maîtrisable pour la France</h2>

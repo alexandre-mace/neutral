@@ -87,10 +87,14 @@ nav li a {
 }
 .theme {
     text-align: center;
-    font-size: calc(28px + 3.3vw);
+    font-size: calc(28px + 2.9vw);
     font-weight: 500;
+}
+hr {
     margin-top: 10rem;
-    margin-bottom: -2rem;
+    width: 15vw;
+    margin-bottom: 6rem;
+    background-color: black;
 }
 .lateral-nav {
     list-style-type: none;
