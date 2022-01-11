@@ -23,6 +23,8 @@ import scen2 from './img/scen-2.png'
 import trajCons1 from './img/traj-cons-1.png'
 import trajElecEmpreinte from './img/traj-elec-empreinte.png'
 import useScrollSpy from 'react-use-scrollspy';
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
 
 function App() {
     const sectionRefs = [
@@ -170,18 +172,26 @@ function App() {
                             <section>
                                 <h3>Le système électrique de demain sera nécessairement différent de celui d’aujourd’hui</h3>
                                 <p>Décrire ces mondes possibles en se fondant sur une étude technique approfondie, un chiffrage économique, une analyse environnementale et une prise en compte des aspects sociétaux : tel est l’objet des « Futurs énergétiques 2050 ».</p>
-                                <img src={franceTotalElecCons} alt="évolution de la consommation totale d'électricité et de la consommation d'énergie finale pour les autres énergies en France"/>
+                                <Zoom>
+                                    <img src={franceTotalElecCons} alt="évolution de la consommation totale d'électricité et de la consommation d'énergie finale pour les autres énergies en France"/>
+                                </Zoom>
                             </section>
                         </article>
 
                         <article>
                             <h2>LES TRAJECTOIRES DE CONSOMMATION À L’HORIZON 2050</h2>
-                            <img src={trajCons1} alt="LES TRAJECTOIRES DE CONSOMMATION À L’HORIZON 2050"/>
+                            <Zoom>
+                                <img src={trajCons1} alt="LES TRAJECTOIRES DE CONSOMMATION À L’HORIZON 2050"/>
+                            </Zoom>
                         </article>
                         <article>
                             <h2>LES SCÉNARIOS DE MIX DE PRODUCTION À L’HORIZON 2050</h2>
-                            <img src={scen1} alt="LES SCÉNARIOS DE MIX DE PRODUCTION À L’HORIZON 2050"/>
-                            <img src={scen2} alt="LES SCÉNARIOS DE MIX DE PRODUCTION À L’HORIZON 2050 2e partie"/>
+                            <Zoom>
+                                <img src={scen1} alt="LES SCÉNARIOS DE MIX DE PRODUCTION À L’HORIZON 2050"/>
+                            </Zoom>
+                            <Zoom>
+                                <img src={scen2} alt="LES SCÉNARIOS DE MIX DE PRODUCTION À L’HORIZON 2050 2e partie"/>
+                            </Zoom>
                         </article>
 
                         <hr/>
@@ -205,7 +215,9 @@ function App() {
                                     <li>Les leviers de sobriété ont été identifiés et quantifiés par secteur d’activité (habitat, travail et commerce, déplacements et activités industrielles</li>
                                     <li>Ils s’inspirent des travaux de la convention citoyenne sur le climat et dessinent un « pacte de société » spécifique, que les travaux de RTE ne visent pas à qualifier, promouvoir ou décourager, mais à documenter vis-à-vis de l’objectif de neutralité carbone</li>
                                 </ul>
-                                <img src={efficaciteSobriete} alt="Effets attendus efficacité énergétique"/>
+                                <Zoom>
+                                    <img src={efficaciteSobriete} alt="Effets attendus efficacité énergétique"/>
+                                </Zoom>
                             </section>
                         </article>
                         <article>
@@ -231,7 +243,9 @@ function App() {
                                     <li>
                                         Des combinaisons de variantes sont possibles, sans modifier ce résultat. Le système électrique français devra donc se mettre en situation de soutenir une augmentation de la demande électrique très probable dès lors que s’engagent les transformations nécessaires à la neutralité carbone, et ce même dans le cas où des gains importants sur l’efficacité énergétique et la sobriété sont au rendez-vous.
                                     </li>
-                                    <img src={evolConsEnergieElec} alt="évolution de la consommation d'énergie et d'électricité dans une perspective de neutralité carbone"/>
+                                    <Zoom>
+                                        <img src={evolConsEnergieElec} alt="évolution de la consommation d'énergie et d'électricité dans une perspective de neutralité carbone"/>
+                                    </Zoom>
                                 </ul>
                             </section>
                         </article>
@@ -256,8 +270,13 @@ function App() {
                                 <p>
                                     La réindustrialisation permet des gains très substantiels sur l’empreinte carbone de la France, qui constitue aujourd’hui l’un des principaux enjeux dans la lutte contre le changement climatique vu le solde déficitaire de la balance commerciale du pays. Une réindustrialisation profonde permet d’éviter environ 900 millions de tonnes de CO2 en trente ans, avec un avantage qui s’amplifie tout au long de la trajectoire : ~10 MtCO2eq/an entre 2020 et 2030, ~30 MtCO2eq/an entre 2030 et 2040, ~40 MtCO2eq/an entre 2040 et 2050. La France peut en effet tirer parti d’un mix actuel plus décarboné et de l’atteinte d’objectifs climatiques plus ambitieux que ceux de la majorité des pays dont la France importe les biens manufacturé
                                 </p>
-                                <img src={reindusElec} alt="Effets d'une réindustrialisation profonde sur la consommation d'éléctricité"/>
-                                <img src={reindusEmpreinte} alt="Effets d'une réindustrialisation profonde sur l'empreinte carbone"/>
+                                <Zoom>
+
+                                    <img src={reindusElec} alt="Effets d'une réindustrialisation profonde sur la consommation d'éléctricité"/>
+                                </Zoom>
+                                <Zoom>
+                                    <img src={reindusEmpreinte} alt="Effets d'une réindustrialisation profonde sur l'empreinte carbone"/>
+                                </Zoom>
                             </section>
                         </article>
 
@@ -283,7 +302,9 @@ function App() {
                                     <li>Tous les scénarios européens prévoient un fort développement du solaire photovoltaïque et ceux envisageables pour la France n’y font pas exception : d’ici 30 ans, il faudra avoir porté le parc au minimum à 70 GW (plus de 200 GW dans la trajectoire la plus haute). Ces chiffres ne sont pas exceptionnels par rapport aux prévisions des pays voisins même s’ils représentent une croissance relative impressionnante au regard de la taille limitée du parc actuel (10 GW, contre 13 au Royaume-Uni, 14 en Espagne, 21 en Italie et 54 en Allemagne).</li>
                                     <li><b>Respecter les objectifs climatiques passe aussi nécessairement par un développement de l’éolien</b>, qui constitue aujourd’hui une technologie mature aux coûts de production faibles, susceptible de produire des volumes d’électricité importants. S’il sera possible de « doser » entre l’éolien terrestre et l’éolien en mer en fonction des opportunités économiques et des problématiques d’acceptabilité, un parc minimal d’une quarantaine de gigawatts d’éolien terrestre, ainsi que la construction d’un parc d’éoliennes en mer de l’ordre de 25 GW, apparaissent nécessaires. Atteindre ces niveaux ne soulève pas d’enjeu économique ou technique (sauf sur l’éolien en mer flottant), mais bien une question d’acceptabilité même si celle-ci doit être mise en regard de comparatifs européens : l’Allemagne s’est déjà dotée d’une capacité de production éolienne terrestre de 50 GW en 15 ans, le Danemark atteint 4,5 GW pour un pays d’une surface représentant moins de 8% de celle de la France métropolitaine, et le Royaume-Uni – qui a développé en 20 années un parc de 10 GW d’éoliennes en mer – atteindra 20 GW d’ici 2030.</li>
                                 </ul>
-                                <img src={devNewReact} alt="Trajectoire développement nouveau nucléaire"/>
+                                <Zoom>
+                                    <img src={devNewReact} alt="Trajectoire développement nouveau nucléaire"/>
+                                </Zoom>
                             </section>
                         </article>
                         <article>
@@ -321,7 +342,9 @@ function App() {
                                     <li>Des conditions de financement défavorables résultant par exemple d’une absence de soutien public ou un accès plus difficile à des financements européens seraient de nature à augmenter le coût complet de la production nucléaire</li>
                                     <li>ℹ️ Dans le cas où cette différence porterait sur trois pourcents de coût du capital, le coût d’un scénario comprenant de nouveaux réacteurs serait équivalent à celui duscénario «100 % renouvelables» présentant le meilleur bilan économique, c’est-à-dire celui fondé sur de grands parcs (M23).</li>
                                 </ul>
-                                <img src={coutsComplets} alt="Couts complets horizon 2060"/>
+                                <Zoom>
+                                    <img src={coutsComplets} alt="Couts complets horizon 2060"/>
+                                </Zoom>
                             </section>
                         </article>
                         <article>
@@ -345,7 +368,9 @@ function App() {
                             </section>
                             <section>
                                 <h3>Les scénarios de sortie du nucléaire dès 2050 (M0) ou fondés majoritairement sur le solaire diffus (M1) sont significativement plus onéreux que les autres options</h3>
-                                <img src={coutsCompletsAn} alt="Couts complets annualisés horizon 2060"/>
+                                <Zoom>
+                                    <img src={coutsCompletsAn} alt="Couts complets annualisés horizon 2060"/>
+                                </Zoom>
                             </section>
                         </article>
                         <article>
@@ -377,7 +402,9 @@ function App() {
                                     <li>Tirer le meilleur parti du potentiel de flexibilité voire de stockage que représentent les véhicules électriques présente un intérêt. Celui-ci porte en premier lieu sur la recharge intelligente des véhicules (au cours de la journée au moment où la production solaire est forte, le week-end ou les nuits par des dispositifs automatiques lorsque les véhicules ne sont pas utilisés) : l’intérêt pour le consommateur et le système est fort et accessible sans surcoût. Mobiliser, au-delà, les batteries comme des stockages (vehicule-to-grid) constitue une option supplémentaire, mais n’est pas une obligation dans la majorité des configurations étudiées.</li>
                                     <li>Le stockage par grandes batteries dédiées au système électrique constitue pour sa part une solution très adaptée dans les scénarios où le solaire se développe très largement. Il n’est toutefois pas indispensable dans tous les scénarios.</li>
                                 </ul>
-                                <img src={needs} alt="Synthèse besoins de capacités flexibles"/>
+                                <Zoom>
+                                    <img src={needs} alt="Synthèse besoins de capacités flexibles"/>
+                                </Zoom>
                             </section>
                         </article>
                         <article>
@@ -412,7 +439,9 @@ function App() {
                             <section>
                                 <h3>Un levier à long terme : développer le stockage d’hydrogène flexible dans la perspective de scénarios à hautes proportions en énergies renouvelables</h3>
                                 <p>Si les électrolyseurs sont reliés à un grand système hydrogène doté de capacités de stockage, ils pourront alors moduler leur fonctionnement dans des proportions plus importantes que beaucoup d’autres usages électriques : contrairement aux véhicules électriques dont les batteries restent de capacité limitée et doivent être rechargées régulièrement, les électrolyseurs pourraient stopper leur fonctionnement pendant de longues périodes (par exemple durant les semaines sans vent) dès lors qu’un stock suffisant a été constitué pour alimenter les besoins d’hydrogène. Cette flexibilité n’est toutefois accessible que grâce à des infrastructures de stockage et de transport d’hydrogène dont la disponibilité n’est aujourd’hui pas acquise. Le coût de ces solutions, aujourd’hui soumis à une forte incertitude, est intégré aux chiffrages</p>
-                                <img src={integHydrogene} alt="Intégration système hydrogène"/>
+                                <Zoom>
+                                    <img src={integHydrogene} alt="Intégration système hydrogène"/>
+                                </Zoom>
                             </section>
                         </article>
                         <article>
@@ -449,7 +478,9 @@ function App() {
                                     <li>Les scénarios de type N2 permettent de s’affranchir de plusieurs paris techniques et industriels pour atteindre un haut niveau de production d’électricité bas-carbone</li>
                                     <li>En effet, la dépendance au système hydrogène y est plus faible, les aménagements du réseau s’inscrivent dans le prolongement de l’accélération déjà envisagée pour 2035 et les enjeux de maintien du synchronisme sont moins importants. Sur le volet nucléaire, ce type de scénario n’est pas tributaire de la prolongation des réacteurs au-delà de 60 ans et sa trajectoire est compatible avec un lissage de la fermeture des réacteurs actuels dans le but d’éviter «l’effet falaise». Le développement d’une filière de petits réacteurs modulaires – lesquels ne sont pas encore développés en France sur le plan industriel – devient une opportunité (pour réduire le rythme nécessaire de construction des EPR2) et non une obligation. Le défi industriel que constituerait la construction de 14 réacteurs EPR 2 en 30 ans ne doit toutefois pas être sous-estimé.</li>
                                 </ul>
-                                <img src={prereqScen} alt="Prérequis techniques des scénarios"/>
+                                <Zoom>
+                                    <img src={prereqScen} alt="Prérequis techniques des scénarios"/>
+                                </Zoom>
                             </section>
                         </article>
                         <article>
@@ -470,7 +501,9 @@ function App() {
                                     <li>Ces périodes froides et sans vent, qui suscitent beaucoup de questions dans le débat public sur le mix électrique, induisent ainsi des besoins de capacités pilotables très significatifs dans les scénarios à haute part en énergies renouvelables (plusieurs dizaines de gigawatts). Seules de telles capacités permettront de passer ce type de situations</li>
                                     <li>L’augmentation des situations de sécheresse à la fin de l’été et à l’automne pourra également conduire à des périodes de tension pour l’équilibre offre-demande d’électricité, d’autant plus si ces sécheresses se combinent avec des périodes de faible vent. Là aussi, des capacités pilotables sont nécessaires. Elles sont intégrées dans l’analyse des scénarios</li>
                                 </ul>
-                                <img src={evolClimat} alt="Evolution de la fréquence des évènements climatiques extrêmes"/>
+                                <Zoom>
+                                    <img src={evolClimat} alt="Evolution de la fréquence des évènements climatiques extrêmes"/>
+                                </Zoom>
                             </section>
                         </article>
 
@@ -491,7 +524,9 @@ function App() {
                                     <li>Les analyses des « Futurs énergétiques 2050 » confirment une plus grande visibilité des infrastructures : les éoliennes pourraient représenter entre 14 000 et 35 000 mâts, et les panneaux solaires entre 0,1 % et 0,3 % du territoire</li>
                                     <li>Les scénarios avec construction de nouveaux réacteurs nucléaires conduisent à une moindre occupation de l’espace puisque les nouveaux réacteurs seraient a priori construits sur ou contiguë aux sites existants. <b>Ces constats de moindre occupation spatiale par le nucléaire ne doivent toutefois pas occulter les débats d’acceptabilité que ces nouvelles installations ne manqueront pas de provoquer, doublés d’une mise en avant du risque d’accident</b></li>
                                 </ul>
-                                <img src={nbEol} alt="Nombre de mâts d'éoliennes en France"/>
+                                <Zoom>
+                                    <img src={nbEol} alt="Nombre de mâts d'éoliennes en France"/>
+                                </Zoom>
                             </section>
                             <section>
                                 <h3>Les énergies renouvelables ne conduisent pas, de manière générale, à une forte imperméabilisation et artificialisation des surfaces</h3>
@@ -503,7 +538,9 @@ function App() {
                                     <li>Les possibilités de « co-usages des sols » autour des installations électriques sont de natures différentes selon les filières. Elles sont de faible intensité mais sur une surface étendue pour l’éolien, car de nombreux usages, notamment agricoles, sont possibles autour des éoliennes. C’est l’inverse pour le solaire : l’espace occupé est plus réduit rapporté à la puissance installée, mais la contrainte sur les co-usages est beaucoup plus forte. Les possibilités d’usages de l’espace sous les panneaux au sol peuvent être nettement réduits, même si le sol n’est ni artificialisé ni imperméabilisé, sauf dans des modèles spécifiques d’agrivoltaïsme (pâturage et certaines cultures possibles)</li>
                                     <li>L’étude n’identifie enfin aucun problème structurel sur le foncier même si des tensions sont susceptibles de survenir dans certaines régions.</li>
                                 </ul>
-                                <img src={artifi} alt="Flux d'artificialisation projeté à 2050"/>
+                                <Zoom>
+                                    <img src={artifi} alt="Flux d'artificialisation projeté à 2050"/>
+                                </Zoom>
                             </section>
                         </article>
                         <article>
@@ -543,7 +580,9 @@ function App() {
                                         Dans l’ensemble, l’électrification des usages permet de gagner environ 150 millions de tonnes de CO2 d’ici 2050. Le rôle de l’électricité est donc majeur mais pas suffisant : le mix énergétique en 2050 est loin d’être tout électrique et l’atteinte de la neutralité carbone repose également sur d’autres leviers, comme le développement des bioénergies ou la réduction des émissions de l’agriculture
                                     </li>
                                 </ul>
-                                <img src={trajElecEmpreinte} alt="Trajectoire d'émissions de gaz à effet de serre et effets de l'électrification"/>
+                                <Zoom>
+                                    <img src={trajElecEmpreinte} alt="Trajectoire d'émissions de gaz à effet de serre et effets de l'électrification"/>
+                                </Zoom>
                             </section>
                         </article>
                         <article>
@@ -584,7 +623,9 @@ function App() {
                                     <li>En revanche, l’utilisation de l’uranium génère, en sortie des centrales, différents types de substances qui impliquent une gestion de très long terme du fait de leur caractère radioactif et de leur durée de vie. Certaines matières peuvent être recyclées dans des réacteurs existants ou futurs : la stratégie française de «cycle fermé» privilégie une réutilisation maximale de ces matières, mais des incertitudes existent sur ces perspectives, du fait de la suspension des projets expérimentaux de génération IV en France. Le cycle du combustible nécessite des infrastructures dédiées pour l’entreposage (piscines), essentielles au chargement et déchargement des réacteurs, ainsi que pour le traitement et le recyclage du combustible usé. Leurs coûts sont intégrés au chiffrage économique.</li>
                                     <li>La production nucléaire génère, en outre, des déchets radioactifs ultimes qui devront être stockés sur plusieurs dizaines de milliers d’années, c’est l’objet du projet CIGEO. La relance d’un parc nucléaire augmentera le besoin d’infrastructures pour gérer à long terme les déchets issus du parc de nouveaux réacteurs. Ces besoins sont chiffrés dans les scénarios correspondants.</li>
                                 </ul>
-                                <img src={consoCuivre} alt="Evolution de la consommation du cuivre"/>
+                                <Zoom>
+                                    <img src={consoCuivre} alt="Evolution de la consommation du cuivre"/>
+                                </Zoom>
                             </section>
                         </article>
 
@@ -632,7 +673,9 @@ function App() {
                                 <ul>
                                     <li>La logique consistant à renforcer la capacité de production d’électricité bas-carbone (logique additive « renouvelables + nucléaire ») est celle qui présente le meilleur bilan climatique de court/moyen terme et donc celle qui est la plus à même de permettre l’atteinte des objectifs climatiques en 2030</li>
                                 </ul>
-                                <img src={mixElecProd} alt="Production d'éléctricité bas-carbone en France"/>
+                                <Zoom>
+                                    <img src={mixElecProd} alt="Production d'éléctricité bas-carbone en France"/>
+                                </Zoom>
                             </section>
                         </article>
                         <article>
@@ -658,7 +701,9 @@ function App() {
                                 <p>La définition du système électrique de demain constitue le cœur des « Futurs énergétiques 2050 » qui dessinent puis comparent les chemins possibles pour une France bas-carbone insérée dans l’Europe. L’étude révèle un certain nombre d’urgences d’ordre industriel.</p>
                                 <p>Il est nécessaire, en toute hypothèse, de faciliter et d’accélérer par tous les moyens possibles l’installation de modes de production d’électricité bas-carbone. Les délais effectifs ou projetés en l’état, l’autorisation puis la construction de champs d’éoliennes terrestres ou en mer, de fermes photovoltaïques, ou encore de nouveaux réacteurs nucléaires sont très longs, et renvoient l’essentiel des mises en service de ce qui serait décidé aujourd’hui au-delà de 2030.</p>
                                 <p><b>De tels délais ne sont pas compatibles avec l’ambition de réduire les émissions du pays, surtout si on renonce à l’une ou l’autre de ces trois grandes technologies.</b></p>
-                                <img src={evolEmisCarbonePuits} alt="Evolutions des émissions et des puits de gaz à effet de serre"/>
+                                <Zoom>
+                                    <img src={evolEmisCarbonePuits} alt="Evolutions des émissions et des puits de gaz à effet de serre"/>
+                                </Zoom>
                             </section>
                         </article>
                     </div>
