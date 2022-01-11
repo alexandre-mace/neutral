@@ -102,10 +102,10 @@ nav li a {
 .lateral-nav li:hover {
     cursor: pointer;
     box-shadow: 0 0 2px 3px #09d3ac;
-    background-color: rgba(225, 225, 225, 0.82);
+    background-color: rgba(4, 13, 33, 0.08);
 }
 .lateral-nav-active-item a {
-    background-color: rgba(225, 225, 225, 0.82);
+    background-color: rgba(4, 13, 33, 0.08);
 }
 .lateral-nav a {
     width: 100%;
