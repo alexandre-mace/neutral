@@ -41,7 +41,7 @@ body p {
     max-width: 1000px;
 }
 .head-section img {
-    max-height: 80px;
+    height: 80px;
     filter: drop-shadow(16px 32px 16px rgba(255, 255, 255, 0.04));
     will-change: transform;
 }
