@@ -75,7 +75,7 @@ function App() {
                     <div className="col-12 text-center">
                         <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/285/compass_1f9ed.png" alt=""/>
                         <h1>Neutral</h1>
-                        <div>Se repérer à travers la transition énergétique</div>
+                        <div>Se repérer au travers de la transition énergétique</div>
                     </div>
                 </div>
                 <nav className="row no-gutters mt-4 pb-5 justify-content-center">
