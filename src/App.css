@@ -247,6 +247,7 @@ article:nth-of-type(2n) a {
 }
 #scroll-to-top:hover {
     cursor: pointer;
+    box-shadow: 0 0 2px 3px #09d3ac;
 }
 #scroll-to-top.show-scroll-to-top {
     opacity: 1;
