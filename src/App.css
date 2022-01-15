@@ -210,9 +210,10 @@ article:nth-of-type(2n) a {
         padding: 0.2rem;
     }
     article {
-        padding: 1rem;
+        padding: 1rem 0.5rem;
     }
     article:nth-of-type(2n) {
+        padding: 1rem;
         background-color: #040d21;
         color: white;
         border-radius: 20px;
