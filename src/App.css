@@ -251,3 +251,8 @@ article:nth-of-type(2n) a {
     opacity: 1;
     transform: translateY(0);
 }
+
+footer a {
+    text-decoration: none;
+    color: #040d21;
+}
