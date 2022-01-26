@@ -152,7 +152,7 @@ function App() {
                         </article>
                         <article>
                             <h2>Préambule</h2>
-                            <p>Le contenu de cet outil se base essentiellement sur le dernier rapport RTE. Ce derner est le fruit de : </p>
+                            <p>Le contenu de cet outil se base essentiellement sur le dernier rapport RTE. Ce dernier est le fruit de : </p>
                             <ul>
                                 <li>2 ans de travail</li>
                                 <li>120 organisations</li>
