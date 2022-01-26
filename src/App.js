@@ -18,8 +18,7 @@ import needs from './img/needs.png'
 import prereqScen from './img/prereq-scen.png'
 import reindusElec from './img/reindus-elec.png'
 import reindusEmpreinte from './img/reindus-empreinte.png'
-import scen1 from './img/scen-1.png'
-import scen2 from './img/scen-2.png'
+import scenarios from './img/scenarios.png'
 import trajCons1 from './img/traj-cons-1.png'
 import trajElecEmpreinte from './img/traj-elec-empreinte.png'
 import useScrollSpy from 'react-use-scrollspy';
@@ -34,6 +33,7 @@ function App() {
         useRef(null),
         useRef(null),
         useRef(null),
+        useRef(null),
     ];
 
     const activeSection = useScrollSpy({
@@ -42,6 +42,10 @@ function App() {
     });
 
     const titles = [
+        {
+            name: '📽️ Trajectoires et Scénarios',
+            id: 'scenarios'
+        },
         {
             name: '🧃 Consommation',
             id: 'consommation'
@@ -144,7 +148,7 @@ function App() {
                     <div className="col-xl-8">
                         <article>
                             <h2>Objectif : Sortir des énergies fossiles</h2>
-                            <p>Scénarios de production et de consommation électriques permettant l’atteinte de la neutralité carbone à l’horizon 2050</p>
+                            <p>Présentation des scénarios de production et de consommation électriques permettant l’atteinte de la neutralité carbone à l’horizon 2050</p>
                         </article>
                         <article>
                             <h2>Préambule</h2>
@@ -155,7 +159,7 @@ function App() {
                                 <li>6 scénarios de production et 3 scénarios de consommation à l'étude</li>
                                 <li>Le modèle simule le fonctionnement du système électrique à l’échelle européenne chaque heure de chaque année pendant 30 ans</li>
                             </ul>
-                            <p>Le résumé exécutif est accessible ici : <a href="https://assets.rte-france.com/prod/public/2021-12/Futurs-Energetiques-2050-principaux-resultats.pdf">Lien du résumé</a></p>
+                            <p><a href="https://www.rte-france.com/analyses-tendances-et-prospectives/bilan-previsionnel-2050-futurs-energetiques#Lesdocuments">Voir les documents officiels du rapport</a></p>
                         </article>
                         <article>
                             <h2>État des lieux</h2>
@@ -165,18 +169,16 @@ function App() {
                                 <h4>Pour respecter les engagements climatiques de la France, il faut sortir des énergies fossiles sur lesquelles notre économie et nos modes de vie sont aujourd’hui assis</h4>
                                 <p>En France, environ 60 % de l’énergie utilisée est d’origine fossile : il s’agit principalement des produits pétroliers (de l’ordre de 40 %), du gaz naturel (de l’ordre de 20 %) et du charbon (moins de 1 %)</p>
                                 <p className="info">ℹ️Cette énergie dépend des importations des pays producteurs (notamment l’Arabie saoudite, le Kazakhstan, la Russie, le Nigeria et l’Algérie pour le pétrole brut, la Norvège, la Russie, les Pays-Bas et le Nigeria pour le gaz).
-                                    Les combustibles fossiles satisfont aujourd’hui une consommation finale de plus de 930 TWh par an, contre 430 TWh pour l’électricité.
-                                    56 réacteurs nucléaires (construits sur la période 1970-1990) + base de production hydraulique déjà importante (60 TWh)
                                 </p>
                                 <p className="info">
                                     ℹ️ Le programme électronucléaire français répondait à un souci d’autonomie énergétique à la suite des chocs pétroliers. Aujourd’hui, il n’est pas contestable qu’il constitue un atout majeur de la France dans la lutte contre le changement climatique en produisant une électricité très largement décarbonée en grandes quantités.
                                 </p>
-                                <p><b>Or, si le nucléaire représente bien 70 % de l’électricité produite en France, il représente moins de 20% de l’énergie finale utilisée par les français.</b></p>
+                                <p><b>Or, si le nucléaire représente bien 70% de l’électricité produite en France, il représente moins de 20% de l’énergie finale utilisée par les français.</b></p>
                             </section>
 
                             <section>
                                 <h3>Un impensé du débat français : la fermeture prévisible du parc nucléaire de seconde génération au cours des prochaines décennies</h3>
-                                <p>Pour alimenter une consommation de 645 TWh d’électricité en 2050, la France dispose d’un atout : sa production d’électricité décarbonée avoisine déjà 500 TWh. Dès lors, la « marche » à franchir est beaucoup moins haute que dans d’autres pays</p>
+                                <p>Pour alimenter une consommation de 645 TWh d’électricité en 2050, la France dispose d’un atout : sa production d’électricité décarbonée avoisine déjà 500 TWh. Dès lors, la « marche » à franchir est beaucoup moins haute que dans d'autres pays.</p>
                                 <p className="info">ℹ️ (l’Allemagne produit aujourd’hui environ 300 TWh d’électricité bas-carbone, le Royaume-Uni près de 200 TWh, l’Italie près de 100 TWh, alors que tous ces pays européens envisagent des consommations d’électricité de l’ordre de 600-800 TWh dans trente ans).</p>
                                 <p>Cependant, l’âge moyen du parc nucléaire est de 36 années, les centrales  atteignent progressivement l’échéance de 40 ans qui avait été retenue comme hypothèse de durée de fonctionnement lors de leur conception.</p>
                                 <p className="info">
@@ -195,9 +197,12 @@ function App() {
                                 </p>
                             </section>
                             <section>
-                                <h3>Les options sur la table : un système électrique « renouvelable + nucléaire »ou « 100 % renouvelable » à terme</h3>
+                                <h3>Les options sur la table : un système électrique « renouvelable + nucléaire » ou « 100 % renouvelable » à terme</h3>
                                 <p>
-                                    Du côté des renouvelables, les systèmes à forte part en énergies renouvelables constituent un objet de recherche dans de nombreux pays dans le monde, et RTE a publié en janvier 2021, conjointement avec l’Agence internationale de l’énergie, un rapport listant les prérequis techniques pour atteindre un système fondé sur une proportion importante de renouvelables, ouvrant donc la voie à la possibilité de systèmes 100 % renouvelables à terme. Ces scénarios s’accompagnent de paris importants, et notamment la maîtrise parfaite de l’intégration de l’« hydrogène ». Du côté du nucléaire, les options apparaissent également plus ouvertes : à côté des grands réacteurs de type EPR 2 se multiplient les projets de petits réac- teurs modulaires (SMR) et de nouvelles technolo- gies. La concertation sur les « Futurs énergétiques 2050 » a mis en lumière que la France n’était dans tous les cas pas en capacité, à la date actuelle, de construire des réacteurs nucléaires au même rythme que durant les années 1980.
+                                    Du côté des renouvelables, les systèmes à forte part en énergies renouvelables constituent un objet de recherche dans de nombreux pays dans le monde, et RTE a publié en janvier 2021, conjointement avec l’Agence internationale de l’énergie, un rapport listant les prérequis techniques pour atteindre un système fondé sur une proportion importante de renouvelables, ouvrant donc la voie à la possibilité de systèmes 100 % renouvelables à terme. Ces scénarios s’accompagnent de paris importants, et notamment la maîtrise parfaite de l’intégration de l’« hydrogène ».
+                                </p>
+                                <p>
+                                    Du côté du nucléaire, les options apparaissent également plus ouvertes : à côté des grands réacteurs de type EPR 2 se multiplient les projets de petits réac- teurs modulaires (SMR) et de nouvelles technologies. La concertation sur les « Futurs énergétiques 2050 » a mis en lumière que la France n’était dans tous les cas pas en capacité, à la date actuelle, de construire des réacteurs nucléaires au même rythme que durant les années 1980.
                                 </p>
                             </section>
                             <section>
@@ -209,6 +214,8 @@ function App() {
                             </section>
                         </article>
 
+                        <hr/>
+                        <div ref={sectionRefs[0]} className={"theme"} id={"scenarios"}>Trajectoires et Scénarios</div>
                         <article>
                             <h2>LES TRAJECTOIRES DE CONSOMMATION À L’HORIZON 2050</h2>
                             <Zoom>
@@ -218,20 +225,17 @@ function App() {
                         <article>
                             <h2>LES SCÉNARIOS DE MIX DE PRODUCTION À L’HORIZON 2050</h2>
                             <Zoom>
-                                <img src={scen1} alt="LES SCÉNARIOS DE MIX DE PRODUCTION À L’HORIZON 2050"/>
-                            </Zoom>
-                            <Zoom>
-                                <img src={scen2} alt="LES SCÉNARIOS DE MIX DE PRODUCTION À L’HORIZON 2050 2e partie"/>
+                                <img src={scenarios} alt="LES SCÉNARIOS DE MIX DE PRODUCTION À L’HORIZON 2050"/>
                             </Zoom>
                         </article>
 
                         <hr/>
-                        <div ref={sectionRefs[0]} className={"theme"} id={"consommation"}>Consommation</div>
+                        <div ref={sectionRefs[1]} className={"theme"} id={"consommation"}>Consommation</div>
                         <article>
                             <h2>Agir sur la consommation grâce à l’efficacité énergétique, voire la sobriété est indispensable pour atteindre les objectifs climatiques</h2>
                             <section>
                                 <h3>La stratégie bas-carbone française repose déjà largement sur l’efficacité énergétique</h3>
-                                <h4>La SNBC prévoit une diminution de 40 % de la consommation énergétique d’ici 2050</h4>
+                                <h4>La SNBC (s prévoit une diminution de 40 % de la consommation énergétique d’ici 2050</h4>
                                 <ul>
                                     <li>Réduction des consommations unitaires des équipements sous l’effet d’une progression technologique (progrès technique naturel des biens d’équipement de la maison, comme l’éclairage, l’électroménager ou l’informatique)</li>
                                     <li>politiques publiques volontaristes (rénovation des bâtiments)</li>
@@ -312,7 +316,7 @@ function App() {
                         </article>
 
                         <hr/>
-                        <div ref={sectionRefs[1]} className={"theme"} id={"mix"}>Transformation du mix</div>
+                        <div ref={sectionRefs[2]} className={"theme"} id={"mix"}>Transformation du mix</div>
                         <article>
                             <h2>Atteindre la neutralité carbone est impossible sans un développement significatif des énergies renouvelables</h2>
                             <section>
@@ -352,7 +356,7 @@ function App() {
                         </article>
 
                         <hr/>
-                        <div ref={sectionRefs[2]} className={"theme"} id={"eco"}>Économie</div>
+                        <div ref={sectionRefs[3]} className={"theme"} id={"eco"}>Économie</div>
                         <article>
                             <h2>
                                 Construire de nouveaux réacteurs nucléaires est pertinent du point de vue économique, a fortiori quand cela permet de conserver un parc d’une quarantaine de GW en 2050 (nucléaire existant et nouveau nucléaire)
@@ -454,7 +458,7 @@ function App() {
                         </article>
 
                         <hr/>
-                        <div ref={sectionRefs[3]} className={"theme"} id={"systeme"}>Système et technologies</div>
+                        <div ref={sectionRefs[4]} className={"theme"} id={"systeme"}>Système et technologies</div>
                         <article>
                             <h2>Créer un « système hydrogène bas-carbone » performant est un atout pour décarboner certains secteurs difficiles à électrifier, et une nécessité dans les scénarios à très fort développement en renouvelables pour stocker l’énergie</h2>
                             <p>L’intérêt pour l’hydrogène bas-carbone dans le débat énergétique est récent mais intense. La promesse d’une « révolution de l’hydrogène » peut en effet apparaître comme une solution séduisante (vecteur combinant flexibilité, faculté à être produit en masse à base d’électricité bas-carbone et pouvant remplacer le gaz d’origine fossile dans de nombreux usages). Il existe néanmoins encore de nombreuses incertitudes sur l’économie de l’hydrogène. Il en résulte une confusion récurrente entre le rôle de l’hydrogène comme solution de décarbonation de l’énergie et celui de solution intermédiaire de stockage pour les besoins de production d’électricité</p>
@@ -539,7 +543,7 @@ function App() {
                         </article>
 
                         <hr/>
-                        <div ref={sectionRefs[4]} className={"theme"} id={"env"}>Espace et environnement </div>
+                        <div ref={sectionRefs[5]} className={"theme"} id={"env"}>Espace et environnement </div>
                         <article>
                             <h2>Le développement des énergies renouvelables soulève un enjeu d’occupation de l’espace et de limitation des usages. Il peut s’intensifier sans exercer de pression excessive sur l’artificialisation des sols, mais doit se poursuivre dans chaque territoire en s’attachant à la préservation du cadre de vie</h2>
                             <section>
@@ -661,7 +665,7 @@ function App() {
                         </article>
 
                         <hr/>
-                        <div ref={sectionRefs[5]} className={"theme"} id={"general"}>Général</div>
+                        <div ref={sectionRefs[6]} className={"theme"} id={"general"}>Général</div>
                         <article>
                             <h2>Pour 2050, le système électrique de la neutralité carbone peut être atteint à un coût maîtrisable pour la France</h2>
                             <section>

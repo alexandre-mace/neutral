@@ -65,6 +65,12 @@ h3 {
     margin-top: 2rem;
     margin-bottom: 0rem;
 }
+h4 {
+    font-size: calc(19px + 0.1vw);
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+}
 h2 + section h3:first-child {
     margin-top: 0.7rem;
 }
@@ -193,7 +199,7 @@ article:nth-of-type(2n) h2 {
     -webkit-box-decoration-break: clone;
 }
 article:nth-of-type(2n) a {
-    color: rgb(160, 169, 185);
+    color: white;
 }
 
 .rounded-bottom-corner {
