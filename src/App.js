@@ -159,7 +159,7 @@ function App() {
                                 <li>6 scénarios de production et 3 scénarios de consommation à l'étude</li>
                                 <li>Le modèle simule le fonctionnement du système électrique à l’échelle européenne chaque heure de chaque année pendant 30 ans</li>
                             </ul>
-                            <p><a href="https://www.rte-france.com/analyses-tendances-et-prospectives/bilan-previsionnel-2050-futurs-energetiques#Lesdocuments">Voir les documents officiels du rapport</a></p>
+                            <p><a target="_blank" rel="noopener noreferrer" href="https://www.rte-france.com/analyses-tendances-et-prospectives/bilan-previsionnel-2050-futurs-energetiques#Lesdocuments">Voir les documents officiels du rapport</a></p>
                         </article>
                         <article>
                             <h2>État des lieux</h2>
