@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/neutral/static/css/main.12833031.css",
-    "main.js": "/neutral/static/js/main.73c285fb.js",
+    "main.css": "/neutral/static/css/main.d5340983.css",
+    "main.js": "/neutral/static/js/main.af41ef1f.js",
     "static/js/787.09107d81.chunk.js": "/neutral/static/js/787.09107d81.chunk.js",
+    "static/media/scenarios.png": "/neutral/static/media/scenarios.8ae650d1b2a54a0bff24.png",
     "static/media/needs.png": "/neutral/static/media/needs.a4a87508f3e833746f4b.png",
     "static/media/traj-elec-empreinte.png": "/neutral/static/media/traj-elec-empreinte.cc9f9b9346654d9e941e.png",
-    "static/media/scen-1.png": "/neutral/static/media/scen-1.7b0469908fd578e9746b.png",
-    "static/media/scen-2.png": "/neutral/static/media/scen-2.f064d1e5aed1de5631c8.png",
     "static/media/integ-hydrogene.png": "/neutral/static/media/integ-hydrogene.1ff51ea075f77b3a8dac.png",
     "static/media/evol-climat.png": "/neutral/static/media/evol-climat.1ca9ec937a99698ffaf4.png",
     "static/media/traj-cons-1.png": "/neutral/static/media/traj-cons-1.be454fc77d944e78dc33.png",
@@ -26,12 +25,12 @@
     "static/media/evol-emis-carbone-puits.png": "/neutral/static/media/evol-emis-carbone-puits.a49058b12252eba80b3f.png",
     "static/media/mix-elec-prod.png": "/neutral/static/media/mix-elec-prod.5ca7ac4e4eefcfd8b99c.png",
     "index.html": "/neutral/index.html",
-    "main.12833031.css.map": "/neutral/static/css/main.12833031.css.map",
-    "main.73c285fb.js.map": "/neutral/static/js/main.73c285fb.js.map",
+    "main.d5340983.css.map": "/neutral/static/css/main.d5340983.css.map",
+    "main.af41ef1f.js.map": "/neutral/static/js/main.af41ef1f.js.map",
     "787.09107d81.chunk.js.map": "/neutral/static/js/787.09107d81.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.12833031.css",
-    "static/js/main.73c285fb.js"
+    "static/css/main.d5340983.css",
+    "static/js/main.af41ef1f.js"
   ]
 }
