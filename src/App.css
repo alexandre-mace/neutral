@@ -45,6 +45,9 @@ body p {
     filter: drop-shadow(16px 32px 16px rgba(255, 255, 255, 0.04));
     will-change: transform;
 }
+.emoji {
+    font-family: apple color emoji,segoe ui emoji,noto color emoji,android emoji,emojisymbols,emojione mozilla,twemoji mozilla,segoe ui symbol;
+}
 h1 {
     font-size: calc(28px + 3vw);
     font-weight: 900;

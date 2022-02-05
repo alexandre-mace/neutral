@@ -168,10 +168,10 @@ function App() {
                                 <h3>Atteindre la neutralité carbone implique une transformation de l’économie et des modes de vie, et une restructuration du système permettant à l’électricité de remplacer les énergies fossiles comme principale énergie du pays</h3>
                                 <h4>Pour respecter les engagements climatiques de la France, il faut sortir des énergies fossiles sur lesquelles notre économie et nos modes de vie sont aujourd’hui assis</h4>
                                 <p>En France, environ 60 % de l’énergie utilisée est d’origine fossile : il s’agit principalement des produits pétroliers (de l’ordre de 40 %), du gaz naturel (de l’ordre de 20 %) et du charbon (moins de 1 %)</p>
-                                <p className="info">ℹ️Cette énergie dépend des importations des pays producteurs (notamment l’Arabie saoudite, le Kazakhstan, la Russie, le Nigeria et l’Algérie pour le pétrole brut, la Norvège, la Russie, les Pays-Bas et le Nigeria pour le gaz).
+                                <p className="info"><span className={"emoji"}>ℹ️</span> Cette énergie dépend des importations des pays producteurs (notamment l’Arabie saoudite, le Kazakhstan, la Russie, le Nigeria et l’Algérie pour le pétrole brut, la Norvège, la Russie, les Pays-Bas et le Nigeria pour le gaz).
                                 </p>
                                 <p className="info">
-                                    ℹ️ Le programme électronucléaire français répondait à un souci d’autonomie énergétique à la suite des chocs pétroliers. Aujourd’hui, il n’est pas contestable qu’il constitue un atout majeur de la France dans la lutte contre le changement climatique en produisant une électricité très largement décarbonée en grandes quantités.
+                                    <span className={"emoji"}>ℹ️</span> Le programme électronucléaire français répondait à un souci d’autonomie énergétique à la suite des chocs pétroliers. Aujourd’hui, il n’est pas contestable qu’il constitue un atout majeur de la France dans la lutte contre le changement climatique en produisant une électricité très largement décarbonée en grandes quantités.
                                 </p>
                                 <p><b>Or, si le nucléaire représente bien 70% de l’électricité produite en France, il représente moins de 20% de l’énergie finale utilisée par les français.</b></p>
                             </section>
@@ -179,13 +179,13 @@ function App() {
                             <section>
                                 <h3>Un impensé du débat français : la fermeture prévisible du parc nucléaire de seconde génération au cours des prochaines décennies</h3>
                                 <p>Pour alimenter une consommation de 645 TWh d’électricité en 2050, la France dispose d’un atout : sa production d’électricité décarbonée avoisine déjà 500 TWh. Dès lors, la « marche » à franchir est beaucoup moins haute que dans d'autres pays.</p>
-                                <p className="info">ℹ️ (l’Allemagne produit aujourd’hui environ 300 TWh d’électricité bas-carbone, le Royaume-Uni près de 200 TWh, l’Italie près de 100 TWh, alors que tous ces pays européens envisagent des consommations d’électricité de l’ordre de 600-800 TWh dans trente ans).</p>
+                                <p className="info"><span className={"emoji"}>ℹ️</span> (l’Allemagne produit aujourd’hui environ 300 TWh d’électricité bas-carbone, le Royaume-Uni près de 200 TWh, l’Italie près de 100 TWh, alors que tous ces pays européens envisagent des consommations d’électricité de l’ordre de 600-800 TWh dans trente ans).</p>
                                 <p>Cependant, l’âge moyen du parc nucléaire est de 36 années, les centrales  atteignent progressivement l’échéance de 40 ans qui avait été retenue comme hypothèse de durée de fonctionnement lors de leur conception.</p>
                                 <p className="info">
-                                    ℹ️ Si la durée d’exploitation de ces centrales est en train d’être prolongée dans le cadre des prescriptions édictées par l’Autorité de sûreté nucléaire et sous le contrôle de cette dernière, il est généralement admis que les réacteurs ne pourront probablement pas fonctionner plus de 60 ans, sauf exception et démarche de sûreté spécifique.
+                                    <span className={"emoji"}>ℹ️</span> Si la durée d’exploitation de ces centrales est en train d’être prolongée dans le cadre des prescriptions édictées par l’Autorité de sûreté nucléaire et sous le contrôle de cette dernière, il est généralement admis que les réacteurs ne pourront probablement pas fonctionner plus de 60 ans, sauf exception et démarche de sûreté spécifique.
                                 </p>
                                 <p className="info">
-                                    ℹ️ Les arrêts définitifs seront très rapprochés (effet falaise), en raison de la rapidité exceptionnelle avec laquelle la France a bâti son parc dans les années 1980.
+                                    <span className={"emoji"}>ℹ️</span> Les arrêts définitifs seront très rapprochés (effet falaise), en raison de la rapidité exceptionnelle avec laquelle la France a bâti son parc dans les années 1980.
                                 </p>
                                 <p>
                                     <b>
@@ -193,7 +193,7 @@ function App() {
                                     </b>
                                 </p>
                                 <p className="info">
-                                    ℹ️ À long terme (2050-2060), la fermeture des réacteurs nucléaires de deuxième génération est une contrainte industrielle : en plus de soutenir l’augmentation prévue de la consommation d’électricité, l’appareil de production français devra profondément se renouveler pour remplacer une production annuelle de l’ordre de 380-400 TWh.
+                                    <span className={"emoji"}>ℹ️</span> À long terme (2050-2060), la fermeture des réacteurs nucléaires de deuxième génération est une contrainte industrielle : en plus de soutenir l’augmentation prévue de la consommation d’électricité, l’appareil de production français devra profondément se renouveler pour remplacer une production annuelle de l’ordre de 380-400 TWh.
                                 </p>
                             </section>
                             <section>
@@ -202,7 +202,7 @@ function App() {
                                     Du côté des renouvelables, les systèmes à forte part en énergies renouvelables constituent un objet de recherche dans de nombreux pays dans le monde, et RTE a publié en janvier 2021, conjointement avec l’Agence internationale de l’énergie, un rapport listant les prérequis techniques pour atteindre un système fondé sur une proportion importante de renouvelables, ouvrant donc la voie à la possibilité de systèmes 100 % renouvelables à terme. Ces scénarios s’accompagnent de paris importants, et notamment la maîtrise parfaite de l’intégration de l’« hydrogène ».
                                 </p>
                                 <p>
-                                    Du côté du nucléaire, les options apparaissent également plus ouvertes : à côté des grands réacteurs de type EPR 2 se multiplient les projets de petits réac- teurs modulaires (SMR) et de nouvelles technologies. La concertation sur les « Futurs énergétiques 2050 » a mis en lumière que la France n’était dans tous les cas pas en capacité, à la date actuelle, de construire des réacteurs nucléaires au même rythme que durant les années 1980.
+                                    Du côté du nucléaire, les options apparaissent également plus ouvertes : à côté des grands réacteurs de type EPR 2 se multiplient les projets de petits réacteurs modulaires (SMR) et de nouvelles technologies. La concertation sur les « Futurs énergétiques 2050 » a mis en lumière que la France n’était dans tous les cas pas en capacité, à la date actuelle, de construire des réacteurs nucléaires au même rythme que durant les années 1980.
                                 </p>
                             </section>
                             <section>
@@ -235,10 +235,10 @@ function App() {
                             <h2>Agir sur la consommation grâce à l’efficacité énergétique, voire la sobriété est indispensable pour atteindre les objectifs climatiques</h2>
                             <section>
                                 <h3>La stratégie bas-carbone française repose déjà largement sur l’efficacité énergétique</h3>
-                                <h4>La SNBC (s prévoit une diminution de 40 % de la consommation énergétique d’ici 2050</h4>
+                                <h4>La SNBC (stratégie nationale bas-carbone) prévoit une diminution de 40% de la consommation énergétique d’ici 2050</h4>
                                 <ul>
                                     <li>Réduction des consommations unitaires des équipements sous l’effet d’une progression technologique (progrès technique naturel des biens d’équipement de la maison, comme l’éclairage, l’électroménager ou l’informatique)</li>
-                                    <li>politiques publiques volontaristes (rénovation des bâtiments)</li>
+                                    <li>Politiques publiques volontaristes (rénovation des bâtiments)</li>
                                     <li>Ces deux seuls effets entraînent un effet baissier sur la consommation de 200 TWh.</li>
                                     <li>Elle peut s’appuyer enfin sur l’électrification de certains usages, qui renforce mécaniquement l’efficacité énergétique (les voitures électriques ont des rendements de 90%, contre 25-35% pour les moteurs thermiques).</li>
                                 </ul>
@@ -247,8 +247,8 @@ function App() {
                                 <h3>L’adoption de la sobriété énergétique permettrait de réduire encore davantage la consommation d’énergie mais constitue un projet de société en tant que tel</h3>
                                 <ul>
                                     <li>Une France « sobre » sur le plan énergétique diminuerait sa consommation par rapport à la trajectoire de référence : les « Futurs énergétiques 2050 » chiffrent le gain atteignable à environ 90 TWh d’électricité, soit une réduction de 15% (en plus de l’efficacité énergétique).</li>
-                                    <li>Les leviers de sobriété ont été identifiés et quantifiés par secteur d’activité (habitat, travail et commerce, déplacements et activités industrielles</li>
-                                    <li>Ils s’inspirent des travaux de la convention citoyenne sur le climat et dessinent un « pacte de société » spécifique, que les travaux de RTE ne visent pas à qualifier, promouvoir ou décourager, mais à documenter vis-à-vis de l’objectif de neutralité carbone</li>
+                                    <li>Les leviers de sobriété ont été identifiés et quantifiés par secteur d’activité (habitat, travail et commerce, déplacements et activités industrielles).</li>
+                                    <li>Ils s’inspirent des travaux de la convention citoyenne sur le climat et dessinent un « pacte de société » spécifique, que les travaux de RTE ne visent pas à qualifier, promouvoir ou décourager, mais à documenter vis-à-vis de l’objectif de neutralité carbone.</li>
                                 </ul>
                                 <Zoom>
                                     <img src={efficaciteSobriete} alt="Effets attendus efficacité énergétique"/>
@@ -264,33 +264,33 @@ function App() {
                                         Aujourd’hui, l’électricité est omniprésente dans la vie des citoyens mais elle n’est pas dominante dans le mix énergétique français.
                                     </li>
                                     <li>
-                                        Son utilisation est marginale dans le secteur des transports (2 %, contre 91 % pour les énergies fossiles), minoritaire pour le chauffage des bâtiments (16 %, contre 56 % pour les énergies fossiles, avec 4 millions de ménages qui utilisent des chaudières au fioul), et plus proche de la parité dans l’industrie (36 %, contre 51 % pour les énergies fossiles 1) qui utilise toujours largement des hydrocarbures comme le pétrole, le gaz et le charbon, mais également de « l’hydrogène gris » extrait du gaz. Pour atteindre la neutralité carbone, il faut donc réduire les consommations et alimenter celles qui restent par des énergies bas-carbone, comme l’électricité ou les usages de la biomasse (bois-énergie, biométhane, biocarburants...)
+                                        Son utilisation est marginale dans le secteur des transports (2 %, contre 91 % pour les énergies fossiles), minoritaire pour le chauffage des bâtiments (16 %, contre 56 % pour les énergies fossiles, avec 4 millions de ménages qui utilisent des chaudières au fioul), et plus proche de la parité dans l’industrie (36 %, contre 51 % pour les énergies fossiles) qui utilise toujours largement des hydrocarbures comme le pétrole, le gaz et le charbon, mais également de « l’hydrogène gris » extrait du gaz. Pour atteindre la neutralité carbone, il faut donc réduire les consommations et alimenter celles qui restent par des énergies bas-carbone, comme l’électricité ou les usages de la biomasse (bois-énergie, biométhane, biocarburants...)
                                     </li>
                                     <li>
                                         Les nouveaux usages de l’électricité consistent le plus souvent en des substitutions aux énergies fossiles. Cet effet de transfert est particulièrement important là où l’électricité est aujourd’hui peu présente : dans les transports (100 TWh en 2050, contre 15 TWh aujourd’hui), dans l’industrie (180 TWh contre 115 TWh aujourd’hui) et dans la production d’hydrogène (50 TWh, contre 0 aujourd’hui). Et il n’est compensé que partiellement dans les secteurs résidentiel et tertiaire par la rénovation thermique et l’efficacité énergétique associée au renouvellement mécanique des équipements électriques (éclairage, électroménager...). Tous les scénarios neutres en carbone conduisent donc à une électrification importante des véhicules (94 % des véhicules légers et 21 % des camions en 2050) et des procédés industriels. Il ne s’agit pas pour autant d’une société « tout électrique » : des usages du gaz (biométhane, hydrogène, différents types de gaz de synthèse), des carburants liquides (biocarburants ou carburants de synthèse) et un recours au bois et à la biomasse (pour la chaleur) coexistent avec l’électricité.
                                     </li>
                                 </ul>
                             </section>
-                            <section>
-                                <h3>Tous les scénarios, variantes et tests de sensibilité sont orientés dans le même sens </h3>
-                                <ul>
-                                    <li>Toutes les variantes et scénarios concluent à une hausse de la consommation, allant de 15 % (sobriété) à 60% (réindustrialisation ou hydrogène +). </li>
-                                    <li>
-                                        Des combinaisons de variantes sont possibles, sans modifier ce résultat. Le système électrique français devra donc se mettre en situation de soutenir une augmentation de la demande électrique très probable dès lors que s’engagent les transformations nécessaires à la neutralité carbone, et ce même dans le cas où des gains importants sur l’efficacité énergétique et la sobriété sont au rendez-vous.
-                                    </li>
-                                    <Zoom>
-                                        <img src={evolConsEnergieElec} alt="évolution de la consommation d'énergie et d'électricité dans une perspective de neutralité carbone"/>
-                                    </Zoom>
-                                </ul>
-                            </section>
+                            {/*<section>*/}
+                            {/*    <h3>Tous les scénarios, variantes et tests de sensibilité sont orientés dans le même sens </h3>*/}
+                            {/*    <ul>*/}
+                            {/*        <li>Toutes les variantes et scénarios concluent à une hausse de la consommation, allant de 15 % (sobriété) à 60% (réindustrialisation ou hydrogène +). </li>*/}
+                            {/*        <li>*/}
+                            {/*            Des combinaisons de variantes sont possibles, sans modifier ce résultat. Le système électrique français devra donc se mettre en situation de soutenir une augmentation de la demande électrique très probable dès lors que s’engagent les transformations nécessaires à la neutralité carbone, et ce même dans le cas où des gains importants sur l’efficacité énergétique et la sobriété sont au rendez-vous.*/}
+                            {/*        </li>*/}
+                            {/*        <Zoom>*/}
+                            {/*            <img src={evolConsEnergieElec} alt="évolution de la consommation d'énergie et d'électricité dans une perspective de neutralité carbone"/>*/}
+                            {/*        </Zoom>*/}
+                            {/*    </ul>*/}
+                            {/*</section>*/}
                         </article>
                         <article>
                             <h2>Accélérer la réindustrialisation du pays, en électrifiant les procédés, augmente la consommation d’électricité mais réduit l’empreinte carbone de la France</h2>
                             <section>
                                 <h3>Un scénario de reconquête industrielle appuyé sur une énergie bas-carbone présente un grand intérêt climatique</h3>
                                 <ul>
-                                    <li>Depuis 30 ans, la France est parvenue à réduire les émissions de gaz à effet de serre produites sur son territoire et dans le même temps, son empreinte carbone (émissions générées sur le territoire et dans les autres pays du fait des produits importés) n’a diminué que de manière marginale : ce paradoxe s’explique par la désindustrialisation du pays et un recours croissant aux produits manufacturés importés, dans un contexte d’augmentation de la consommation française</li>
-                                    <li>Ce phénomène est contre-productif du point de vue climatique alors que la France bénéficie d’une électricité bas-carbone et affiche sur ce terrain l’une des meilleures performances au monde. La perspective d’un redéploiement industriel consistant en un investissement ciblé dans des industries de pointe et dans des activités permettant de réduire l’empreinte carbone du pays offre une solution pour résoudre cette difficulté : elle est étudiée dans le scénario de « réindustrialisation profonde » des « Futurs énergétiques 2050 »</li>
+                                    <li>Depuis 30 ans, la France est parvenue à réduire les émissions de gaz à effet de serre produites sur son territoire et dans le même temps, son empreinte carbone (émissions générées sur le territoire et dans les autres pays du fait des produits importés) n’a diminué que de manière marginale : ce paradoxe s’explique par la désindustrialisation du pays et un recours croissant aux produits manufacturés importés, dans un contexte d’augmentation de la consommation française.</li>
+                                    <li>Ce phénomène est contre-productif du point de vue climatique alors que la France bénéficie d’une électricité bas-carbone. La perspective d’un redéploiement industriel consistant en un investissement ciblé dans des industries de pointe et dans des activités permettant de réduire l’empreinte carbone du pays offre une solution pour résoudre cette difficulté : elle est étudiée dans le scénario de « réindustrialisation profonde » des « Futurs énergétiques 2050 ».</li>
                                     <li>
                                         Ce scénario implique une reconstruction de l’appareil productif autour de solutions bas-carbone, dès le prochain cycle d’investissement. Il est tributaire de la compétitivité prix et carbone du système électrique français par rapport aux alternatives carbonées proposées hors de France et soulève à ce titre un enjeu considérable. Il conduirait à retrouver sur le temps long un niveau de l’industrie manufacturière dans le PIB voisin de celui du début des années 2000 et un solde commercial très positif.
                                     </li>
@@ -303,7 +303,7 @@ function App() {
                             <section>
                                 <h3>Dans une économie réindustrialisée, l’empreinte carbone de la France diminue nettement</h3>
                                 <p>
-                                    La réindustrialisation permet des gains très substantiels sur l’empreinte carbone de la France, qui constitue aujourd’hui l’un des principaux enjeux dans la lutte contre le changement climatique vu le solde déficitaire de la balance commerciale du pays. Une réindustrialisation profonde permet d’éviter environ 900 millions de tonnes de CO2 en trente ans, avec un avantage qui s’amplifie tout au long de la trajectoire : ~10 MtCO2eq/an entre 2020 et 2030, ~30 MtCO2eq/an entre 2030 et 2040, ~40 MtCO2eq/an entre 2040 et 2050. La France peut en effet tirer parti d’un mix actuel plus décarboné et de l’atteinte d’objectifs climatiques plus ambitieux que ceux de la majorité des pays dont la France importe les biens manufacturé
+                                    La réindustrialisation permet des gains très substantiels sur l’empreinte carbone de la France, qui constitue aujourd’hui l’un des principaux enjeux dans la lutte contre le changement climatique vu le solde déficitaire de la balance commerciale du pays. Une réindustrialisation profonde permet d’éviter environ 900 millions de tonnes de CO2 en trente ans, avec un avantage qui s’amplifie tout au long de la trajectoire : ~10 MtCO2eq/an entre 2020 et 2030, ~30 MtCO2eq/an entre 2030 et 2040, ~40 MtCO2eq/an entre 2040 et 2050. La France peut en effet tirer parti d’un mix actuel plus décarboné et de l’atteinte d’objectifs climatiques plus ambitieux que ceux de la majorité des pays dont la France importe les biens manufacturés.
                                 </p>
                                 <Zoom>
 
@@ -322,7 +322,7 @@ function App() {
                             <section>
                                 <h3>Maintenir durablement un grand parc nucléaire permet de décarboner massivement mais est loin de suffire à atteindre la neutralité carbone</h3>
                                 <ul>
-                                    <li>quelles que soient les préférences politiques, la durée de vie des réacteurs de seconde génération ne pourra être prolongée indéfiniment : les centrales actuelles, construites pour la majorité dans les années 1980, devront fermer d’ici 2060, avec un «effet falaise » très marqué durant la décennie 2040</li>
+                                    <li>Quelles que soient les préférences politiques, la durée de vie des réacteurs de seconde génération ne pourra être prolongée indéfiniment : les centrales actuelles, construites pour la majorité dans les années 1980, devront fermer d’ici 2060, avec un «effet falaise » très marqué durant la décennie 2040.</li>
                                     <li>les nouveaux réacteurs (de troisième génération), dont la construction serait décidée aujourd’hui, entreraient en service à compter de 2035 au mieux, au rythme d’une paire tous les quatre ans</li>
                                     <li>Cette perspective représente un défi industriel de premier plan. Disposer d’un parcde 50 GW en 2050 implique de prolonger l’essentiel des réacteurs actuels jusqu’à 60 ans, d’être en mesure d’exploiter certains d’entre eux au-delà de cette durée en respectant les prescriptions de sûreté qui seront imposées par l’ASN, de mettre en service 14 nouveaux réacteurs de type EPR 2 entre 2035 et 2050 dont de très nombreux entre 2040 et 2050, et d’installer en complément une capacité significative de petits réacteurs nucléaires (SMR).</li>
                                     <li>Un parc nucléaire de 50 GW est susceptible de produire de l’ordre de 325 TWh en 2050. Un tel volume équivaut, dans la trajectoire de consommation de référence, à environ 50% de la production nationale.</li>
@@ -332,7 +332,7 @@ function App() {
                                 <h3>Développer significativement les énergies renouvelables en France est, dans tous les cas, absolument indispensable pour atteindre la neutralité carbone</h3>
                                 <ul>
                                     <li>Même un parc nucléaire constitué de réacteurs prolongés et d’un nombre important de nouveaux réacteurs ne peut suffire à assurer l’alimentation d’une consommation de 645 TWh d’ici 30 ans, et a fortiori d’une consommation de 750 TWh. L’étude conclut, sans aucune ambiguïté, au caractère indispensable d’un développement soutenu des énergies renouvelables électriques en France pour respecter ses engagements climatiques.</li>
-                                    <li className={"info"}>ℹ️ À titre de comparaison, le parc actuel complété du réacteur EPR de Flamanville représentera une puissance installée de 63 GW</li>
+                                    <li className={"info"}><span className={"emoji"}>ℹ️</span> À titre de comparaison, le parc actuel complété du réacteur EPR de Flamanville représentera une puissance installée de 63 GW</li>
                                     <li>Pour y arriver, il est nécessaire de les développer partout où c’est possible : solaire, éolien terrestre ou maritime, sans oublier l’hydraulique dont le potentiel de croissance doit être utilisé là où cela est encore possible dans le respect des normes environnementales.</li>
                                     <li>Tous les scénarios européens prévoient un fort développement du solaire photovoltaïque et ceux envisageables pour la France n’y font pas exception : d’ici 30 ans, il faudra avoir porté le parc au minimum à 70 GW (plus de 200 GW dans la trajectoire la plus haute). Ces chiffres ne sont pas exceptionnels par rapport aux prévisions des pays voisins même s’ils représentent une croissance relative impressionnante au regard de la taille limitée du parc actuel (10 GW, contre 13 au Royaume-Uni, 14 en Espagne, 21 en Italie et 54 en Allemagne).</li>
                                     <li><b>Respecter les objectifs climatiques passe aussi nécessairement par un développement de l’éolien</b>, qui constitue aujourd’hui une technologie mature aux coûts de production faibles, susceptible de produire des volumes d’électricité importants. S’il sera possible de « doser » entre l’éolien terrestre et l’éolien en mer en fonction des opportunités économiques et des problématiques d’acceptabilité, un parc minimal d’une quarantaine de gigawatts d’éolien terrestre, ainsi que la construction d’un parc d’éoliennes en mer de l’ordre de 25 GW, apparaissent nécessaires. Atteindre ces niveaux ne soulève pas d’enjeu économique ou technique (sauf sur l’éolien en mer flottant), mais bien une question d’acceptabilité même si celle-ci doit être mise en regard de comparatifs européens : l’Allemagne s’est déjà dotée d’une capacité de production éolienne terrestre de 50 GW en 15 ans, le Danemark atteint 4,5 GW pour un pays d’une surface représentant moins de 8% de celle de la France métropolitaine, et le Royaume-Uni – qui a développé en 20 années un parc de 10 GW d’éoliennes en mer – atteindra 20 GW d’ici 2030.</li>
@@ -365,9 +365,9 @@ function App() {
                                 <h3>Il existe un espace économique pour construire de nouveaux réacteurs</h3>
                                 <ul>
                                     <li>L’étude conclut avec un bon niveau de confiance que les scénarios comprenant un parc nucléaire de 40 GW au moins (N2 et N03) peuvent conduire, à long terme, à des coûts plus bas pour la collectivité qu’un scénario 100% renouvelable reposant sur de grands parcs.</li>
-                                    <li>ℹ️ Ceci est vrai même si les coûts « bruts » de production des nouvelles centrales nucléaires sont en moyenne plus élevés que ceux associés aux grands parcs d’énergies renouvelables.</li>
+                                    <li><span className={"emoji"}>ℹ️</span> Ceci est vrai même si les coûts « bruts » de production des nouvelles centrales nucléaires sont en moyenne plus élevés que ceux associés aux grands parcs d’énergies renouvelables.</li>
                                     <li>En effet, l’intégration de volumes importants d’éoliennes ou de panneaux solaires engendre de très importants besoins en flexibilités (stockage, pilotage de la demande et nouvelles centrales d’appoint) pour pallier leur variabilité, ainsi que des renforcements des réseaux (raccordement, transport et distribution). Une fois ces coûts intégrés, les scénarios comprenant de nouveaux réacteurs nucléaires apparaissent plus compétitifs.</li>
-                                    <li>ℹ️ Cet avantage serait nettement réduit, mais toujours existant, dans le cas où le coût des nouveaux réacteurs nucléaires ne diminuerait pas et demeurerait voisin de celui de l’EPR de Flamanville.</li>
+                                    <li><span className={"emoji"}>ℹ️</span> Cet avantage serait nettement réduit, mais toujours existant, dans le cas où le coût des nouveaux réacteurs nucléaires ne diminuerait pas et demeurerait voisin de celui de l’EPR de Flamanville.</li>
                                     <li>Les scénarios M (« 100 % renouvelables ») apparaissent d’autant plus onéreux par rapport aux scénarios N que la sortie du nucléaire se fait rapidement (2050 dans le scénario M0) ou n’est pas fondée très majoritairement sur de très grands parcs éoliens ou solaires (scénario M1, qui comprend davantage de petites installations solaires).</li>
                                 </ul>
                             </section>
@@ -375,7 +375,7 @@ function App() {
                                 <h3>Leur intérêt économique est conditionné à l’accès à des possibilités de financement qui ne s’écartent pas de celles des autres technologies bas-carbone</h3>
                                 <ul>
                                     <li>Des conditions de financement défavorables résultant par exemple d’une absence de soutien public ou un accès plus difficile à des financements européens seraient de nature à augmenter le coût complet de la production nucléaire</li>
-                                    <li>ℹ️ Dans le cas où cette différence porterait sur trois pourcents de coût du capital, le coût d’un scénario comprenant de nouveaux réacteurs serait équivalent à celui duscénario «100 % renouvelables» présentant le meilleur bilan économique, c’est-à-dire celui fondé sur de grands parcs (M23).</li>
+                                    <li><span className={"emoji"}>ℹ️</span> Dans le cas où cette différence porterait sur trois pourcents de coût du capital, le coût d’un scénario comprenant de nouveaux réacteurs serait équivalent à celui duscénario «100 % renouvelables» présentant le meilleur bilan économique, c’est-à-dire celui fondé sur de grands parcs (M23).</li>
                                 </ul>
                                 <Zoom>
                                     <img src={coutsComplets} alt="Couts complets horizon 2060"/>
@@ -388,7 +388,7 @@ function App() {
                                 <h3>Les coûts d’un scénario 100% renouvelable reposant sur de grands parcs peuvent s’approcher de ceux comprenant des nouveaux réacteurs sous réserve de s’appuyer sur un « système hydrogène » performant et flexible et de réussir le pari de l’éolien flottant.</h3>
                                 <ul>
                                     <li>Les grands parcs éoliens et photovoltaïques ont fortement gagné en maturité technologique : leurs coûts atteignent aujourd’hui des niveaux très compétitifs, désormais inférieurs à ceux de nouvelles centrales thermiques et nucléaires.</li>
-                                    <li>ℹ️ A long terme, les coûts d’un système reposant à 100% sur les énergies renouvelables peuvent s’approcher de ceux d’un système comprenant de nouveaux réacteurs nucléaires sous plusieurs conditions : </li>
+                                    <li><span className={"emoji"}>ℹ️</span> A long terme, les coûts d’un système reposant à 100% sur les énergies renouvelables peuvent s’approcher de ceux d’un système comprenant de nouveaux réacteurs nucléaires sous plusieurs conditions : </li>
                                     <ul>
                                         <li>(i) miser sur les technologies les plus matures etle développement de grands parcs pour bénéficier d’économies d’échelle</li>
                                         <li>(ii) réussir le pari de l’éolien en mer flottant, en obtenant une décroissance des coûts similaires à celle observée ces dernières années sur l’éolien posé</li>
@@ -453,7 +453,7 @@ function App() {
                             </section>
                             <section>
                                 <h3>Le réseau de distribution : des adaptations d’un montant significatif pouvant aller du simple au double selon les scénarios pour satisfaire la hausse de la consommation et connecter les nouvelles installations de production</h3>
-                                <p>ℹ️ Le réseau de distribution : des adaptations d’un montant significatif pouvant aller du simple au double selon les scénarios pour satisfaire la hausse de la consommation et connecter les nouvelles installations de production</p>
+                                <p><span className={"emoji"}>ℹ️</span> Le réseau de distribution : des adaptations d’un montant significatif pouvant aller du simple au double selon les scénarios pour satisfaire la hausse de la consommation et connecter les nouvelles installations de production</p>
                             </section>
                         </article>
 
@@ -466,7 +466,7 @@ function App() {
                                 <h3>Un levier prioritaire : décarboner les usages actuels de l’hydrogène et en développer de nouveaux dans l’industrie ou le transport de marchandises</h3>
                                 <ul>
                                     <li>L’hydrogène constitue en premier lieu un moyen de décarboner des secteurs difficiles voire impossibles à électrifier sur le plan technique ou économique.
-                                        ℹ️ À ce titre, l’action prioritaire à engager consiste à remplacer l’hydrogène fossile (issu à 95 % du gaz, pétrole et charbon) actuellement utilisé par l’industrie dans ses process en France (dans le secteur du raffinage, de la production d’ammoniac ou de la chimie) par de l’hydrogène bas-carbone.</li>
+                                        <span className={"emoji"}>ℹ️</span> À ce titre, l’action prioritaire à engager consiste à remplacer l’hydrogène fossile (issu à 95 % du gaz, pétrole et charbon) actuellement utilisé par l’industrie dans ses process en France (dans le secteur du raffinage, de la production d’ammoniac ou de la chimie) par de l’hydrogène bas-carbone.</li>
                                     <li>L’hydrogène bas-carbone a également vocation à se développer dans le secteur de la mobilité lourde, en particulier pour le transport routier de longue distance.</li>
                                     <li>Le « socle » d’hydrogène bas-carbone nécessaire pour décarboner ces usages est estimé à 35 TWhH2. Produire ces quantités nécessite de développer des électrolyseurs, dans un premier temps sous la forme de grandes installations soutirant depuis le réseau électrique une électricité bas-carbone et situés à proximité des zones industrielles ou des zones d’avitaillement. La consommation électrique associée, dans la trajectoire de référence, atteint environ 50 TWhe.</li>
                                 </ul>
@@ -481,7 +481,7 @@ function App() {
                         </article>
                         <article>
                             <h2>Les scénarios à très hautes parts d’énergies renouvelables, ou celui nécessitant la prolongation des réacteurs nucléaires existants au-delà de 60 ans, impliquent des paris technologiques lourds pour être au rendez-vous de la neutralité carbone en 2050</h2>
-                            <p>ℹ️ Atteindre un système neutre en carbone en 2050 représente un défi technologique. De nombreuses innovations sont attendues et peuvent se révéler plus ou moins nécessaires selon les scénarios : véhicules électriques utilisant des batteries moins gourmandes en métaux rares, boucle «power-to-gas-to-power» via l’hydrogène ou le méthane de synthèse, centrales thermiques fonctionnant aux gaz décarbonés, technologies numériques pour la gestion de la demande, petits réacteurs nucléaires modulaires (SMR), nouvelles énergies marines comme les hydroliennes, etc.</p>
+                            <p><span className={"emoji"}>ℹ️</span> Atteindre un système neutre en carbone en 2050 représente un défi technologique. De nombreuses innovations sont attendues et peuvent se révéler plus ou moins nécessaires selon les scénarios : véhicules électriques utilisant des batteries moins gourmandes en métaux rares, boucle «power-to-gas-to-power» via l’hydrogène ou le méthane de synthèse, centrales thermiques fonctionnant aux gaz décarbonés, technologies numériques pour la gestion de la demande, petits réacteurs nucléaires modulaires (SMR), nouvelles énergies marines comme les hydroliennes, etc.</p>
                             <section>
                                 <h3>Les prérequis technologiques associés aux scénarios à forte proportion en renouvelables ont été explicités dans le rapport commun publié par RTE et l’Agence internationale de l’énergie (janvier 2021)</h3>
                                 <h4>Ces quatre conditions sont les suivantes</h4>
@@ -524,7 +524,7 @@ function App() {
                                 <h3>Le changement climatique modifie les profils de consommation et de production : ses conséquences doivent être intégrées dans le dimensionnement et l’adaptation du système électrique</h3>
                                 <ul>
                                     <li>
-                                        ℹ️  S’agissant de la gestion du système électrique, les conséquences les plus visibles du changement climatique affectent en premier lieu la température : selon le rapport DRIAS 2020 de Météo-France, la hausse moyenne des températures en France pourrait atteindre entre +0,8° C et +2,9° C sur la période 2041-2070, par rapport à 1976-2005. L’intensité et la fréquence des vagues de froid vont diminuer (sans pour autant faire disparaître le risque) tandis que celles des canicules se renforcent : en 2050, un été sur trois pourrait être marqué par une canicule comparable à celle de 2003. Ces effets sur la température se traduisent par une hausse de la consommation d’électricité pour la climatisation, largement compensée, sur l’année, par la baisse de consommation sur le chauffage.
+                                        <span className={"emoji"}>ℹ️</span>  S’agissant de la gestion du système électrique, les conséquences les plus visibles du changement climatique affectent en premier lieu la température : selon le rapport DRIAS 2020 de Météo-France, la hausse moyenne des températures en France pourrait atteindre entre +0,8° C et +2,9° C sur la période 2041-2070, par rapport à 1976-2005. L’intensité et la fréquence des vagues de froid vont diminuer (sans pour autant faire disparaître le risque) tandis que celles des canicules se renforcent : en 2050, un été sur trois pourrait être marqué par une canicule comparable à celle de 2003. Ces effets sur la température se traduisent par une hausse de la consommation d’électricité pour la climatisation, largement compensée, sur l’année, par la baisse de consommation sur le chauffage.
                                     </li>
                                     <li>Il faudra gérer différemment le stock hydraulique, car le remplissage des barrages lié à la fonte des neiges sera plus précoce dans l’année et les sécheresses tardives seront plus fréquentes au début de l’automne</li>
                                     <li>La sensibilité des nouveaux réacteurs nucléaires à ces aléas climatiques pourra être minimisée en privilégiant certains sites (en bord de mer ou en bord de fleuves faiblement contraints en matière de débits et de température seuil) et grâce aux aéroréfrigérants imposés pour les futures centrales en bord de fleuve</li>
@@ -672,7 +672,7 @@ function App() {
                                 <h3>Le coût global (au MWh) du système électrique national est susceptible d’augmenter mais dans des proportions qui peuvent être maîtrisées (de l’ordre de 15 % hors inflation, en vision médiane)</h3>
                                 <ul>
                                     <li>Ce niveau d’augmentation est moins important que ce qui pouvait être anticipé : construire un système électrique bas-carbone largement renouvelé et redimensionné pour accompagner la sortie des énergies fossiles peut donc être réalisé à coût maîtrisé, dès lors que ses coûts de financement sont faibles : l’étude retient 4% comme hypothèse centrale</li>
-                                    <li>ℹ️ Concernant l’aval, il est aujourd’hui plus cher de construire un véhicule électrique qu’un véhicule thermique, mais une fois ce choix réalisé, le coût d’approvisionnement en électricité est plus faible que de s’approvisionner en produits pétroliers. Il en va de même dans le secteur du bâtiment : la pompe à chaleur représente un coût à l’installation, mais elle est économique à l’utilisation. Dans l’industrie, les nouvelles usines ont un coût mais sont plus économes en électricité. Le coût de la transition peut être réduit s’il correspond au prochain cycle d’investissement et de modernisation de l’appareil productif français, qui a pris du retard sur celui de ses concurrents ces dernières années</li>
+                                    <li><span className={"emoji"}>ℹ️</span> Concernant l’aval, il est aujourd’hui plus cher de construire un véhicule électrique qu’un véhicule thermique, mais une fois ce choix réalisé, le coût d’approvisionnement en électricité est plus faible que de s’approvisionner en produits pétroliers. Il en va de même dans le secteur du bâtiment : la pompe à chaleur représente un coût à l’installation, mais elle est économique à l’utilisation. Dans l’industrie, les nouvelles usines ont un coût mais sont plus économes en électricité. Le coût de la transition peut être réduit s’il correspond au prochain cycle d’investissement et de modernisation de l’appareil productif français, qui a pris du retard sur celui de ses concurrents ces dernières années</li>
                                 </ul>
                             </section>
                             <section>
