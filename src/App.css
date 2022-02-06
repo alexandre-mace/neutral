@@ -77,7 +77,7 @@ h4 {
 h2 + section h3:first-child {
     margin-top: 0.7rem;
 }
-h3 + img {
+h3 + div img {
     margin-top: 1rem;
 }
 ul li {
