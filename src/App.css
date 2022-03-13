@@ -29,8 +29,31 @@ body {
 body p {
     line-height: 30px;
 }
+.climate-lab-link {
+    padding: 8px 16px;
+    border-radius: 16px;
+    -webkit-transition: -webkit-background .2s,-webkit-transform .2s;
+    transition: -webkit-background .2s,-webkit-transform .2s;
+    transition: background .2s,transform .2s;
+    transition: background .2s,transform .2s,-webkit-background .2s,-webkit-transform .2s;
+}
+.climate-lab-link:hover {
+    background-color: rgba(46,55,74,.82);
+}
+.climate-lab {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100%;
+    font-size: 16px;
+}
+.climate-lab a {
+    color: white;
+    text-decoration: none;
+}
 .head-section {
-    padding-top: 5rem;
+    padding-top: 2.3rem;
     color: white;
     background-color: #040d21;
 }
@@ -40,7 +63,7 @@ body p {
 .head-section .col-12 {
     max-width: 1000px;
 }
-.head-section img {
+.head-section-presentation img {
     height: 80px;
     filter: drop-shadow(16px 32px 16px rgba(255, 255, 255, 0.04));
     will-change: transform;

@@ -106,7 +106,15 @@ function App() {
     return (
         <>
             <div className="container-fluid position-relative px-0 head-section">
-                <div className="row no-gutters justify-content-center">
+                <div className="row justify-content-end no-gutters">
+                    <div className="col-auto px-5">
+                        <div className={"climate-lab d-flex align-items-center"}>
+                            <div className={"mr-2"}>un outil du </div>
+                            <a target="_blank" rel="noopener noreferrer" className={"d-flex align-items-center climate-lab-link"} href="https://climatelab.fr"><img height={27} width={27} className={"logo-img mr-2"} src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/285/alembic_2697-fe0f.png" alt="Alambic"/> ClimateLab</a>
+                        </div>
+                    </div>
+                </div>
+                <div className="row no-gutters justify-content-center head-section-presentation">
                     <div className="col-12 text-center">
                         <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/285/compass_1f9ed.png" alt=""/>
                         <h1>Neutral</h1>
@@ -722,12 +730,11 @@ function App() {
                             <h2>Quel que soit le scénario choisi, il y a urgence à se mobiliser</h2>
                             <section>
                                 <h3>La première de ces urgences est de répondre à la crise climatique en mettant le pays sur une trajectoire de décarbonation</h3>
-                                <p>Cette trajectoire est déjà engagée, mais elle devra passer dans le futur par des jalons ambitieux :
-                                    <ul>
+                                <p className={"mb-0"}>Cette trajectoire est déjà engagée, mais elle devra passer dans le futur par des jalons ambitieux :                                </p>
+                                <ul className={"mt-2"}>
                                         <li><span className={"emoji"}>&#9989;</span> Celui d’une réduction de 55% des émissions nettes en 2030 (par rapport à 1990) adopté cette année par l’Union européenne.</li>
                                         <li><span className={"emoji"}>&#9989;</span> Des émissions encore plus faibles en 2040, jusqu’à la neutralité carbone complète en 2050. </li>
                                     </ul>
-                                </p>
                                 <p>À cette échéance, la France ne devra plus émettre que de manière marginale, à la hauteur de ses puits de carbone (essentiellement la forêt et les cultures).</p>
                                 <p>Une partie de ces défis se trouve du côté des usages : il est nécessaire de transformer progressivement l’ensemble des secteurs de l’économie et de l’activité française pour qu’ils parviennent à sortir de la consommation d’énergies d’origine fossile, en particulier pétrole et gaz.</p>
                                 <p>Si un certain nombre de politiques publiques françaises sont déjà engagées et efficaces, et si des outils économiques tels que les marchés carbone sont déjà déployés à l’échelle européenne, les trajectoires devront être rapidement infléchies pour corriger l’empreinte carbone du pays. </p>
