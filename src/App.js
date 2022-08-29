@@ -122,7 +122,7 @@ function App() {
                     </div>
                 </div>
                 <nav className="row no-gutters mt-4 pb-5 justify-content-center">
-                    <div className="col-12">
+                    <div className="col-xl-12">
                         <h4 className={"text-center"}>
                             Navigation rapide
                         </h4>
