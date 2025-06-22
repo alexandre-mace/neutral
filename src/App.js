@@ -110,13 +110,13 @@ function App() {
                     <div className="col-auto px-5">
                         <div className={"climate-lab d-flex align-items-center"}>
                             <div className={"mr-2"}>un outil du </div>
-                            <a target="_blank" rel="noopener noreferrer" className={"d-flex align-items-center climate-lab-link"} href="https://climatelab.fr"><img height={27} width={27} className={"logo-img mr-2"} src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/285/alembic_2697-fe0f.png" alt="Alambic"/> ClimateLab</a>
+                            <a target="_blank" rel="noopener noreferrer" className={"d-flex align-items-center climate-lab-link"} href="https://climatelab.fr"><img height={27} width={27} className={"logo-img mr-2"} src="https://em-content.zobj.net/source/apple/419/alembic_2697-fe0f.png" alt="Alambic"/> ClimateLab</a>
                         </div>
                     </div>
                 </div>
                 <div className="row no-gutters justify-content-center head-section-presentation">
                     <div className="col-12 text-center">
-                        <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/285/compass_1f9ed.png" alt=""/>
+                        <img src="https://em-content.zobj.net/source/apple/419/compass_1f9ed.png" alt=""/>
                         <h1>Neutral</h1>
                         <div>Se repérer au travers de la transition énergétique</div>
                     </div>
