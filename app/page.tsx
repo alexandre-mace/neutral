@@ -119,7 +119,7 @@ export default function Home() {
             ))}
           </ul>
         </aside>
-        <div className="min-w-0 max-w-3xl flex-1 pb-10">
+        <div className="typeset min-w-0 max-w-3xl flex-1 pb-10">
 <article>
                             <h2>Objectif : Sortir des énergies fossiles</h2>
                             <p>Présentation des scénarios de production et de consommation électriques permettant l’atteinte de la neutralité carbone à l’horizon 2050.</p>
