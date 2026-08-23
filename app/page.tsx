@@ -148,7 +148,7 @@ export default function Home() {
                                 <p className="info">
                                     <span className={"emoji"}>ℹ️</span> Le programme électronucléaire français répondait à un souci d’autonomie énergétique à la suite des chocs pétroliers. Aujourd’hui, il n’est pas contestable qu’il constitue un atout majeur de la France dans la lutte contre le changement climatique en produisant une électricité très largement décarbonée en grandes quantités.
                                 </p>
-                                <p><b>Or, si le nucléaire représente bien 70% de l’électricité produite en France, il représente moins de 20% de l’énergie finale utilisée par les français.</b></p>
+                                <p className="font-medium">Or, si le nucléaire représente bien 70% de l’électricité produite en France, il représente moins de 20% de l’énergie finale utilisée par les français.</p>
                             </section>
 
                             <section>
@@ -162,11 +162,7 @@ export default function Home() {
                                 <p className="info">
                                     <span className={"emoji"}>ℹ️</span> Les arrêts définitifs seront très rapprochés (effet falaise), en raison de la rapidité exceptionnelle avec laquelle la France a bâti son parc dans les années 1980.
                                 </p>
-                                <p>
-                                    <b>
-                                        La nouvelle donne énergétique issue de ces dernières années : des objectifs climatiques plus contraignants pour 2030, un paysage de sécurité d’approvisionnement plus fragile avec la tension sur les approvisionnements en hydrocarbures, la montée des prix de l’énergie, et la réduction des marges sur le système électrique européen.
-                                    </b>
-                                </p>
+                                <p className="font-medium">La nouvelle donne énergétique issue de ces dernières années : des objectifs climatiques plus contraignants pour 2030, un paysage de sécurité d’approvisionnement plus fragile avec la tension sur les approvisionnements en hydrocarbures, la montée des prix de l’énergie, et la réduction des marges sur le système électrique européen.</p>
                                 <p className="info">
                                     <span className={"emoji"}>ℹ️</span> À long terme (2050-2060), la fermeture des réacteurs nucléaires de deuxième génération est une contrainte industrielle : en plus de soutenir l’augmentation prévue de la consommation d’électricité, l’appareil de production français devra profondément se renouveler pour remplacer une production annuelle de l’ordre de 380-400 TWh.
                                 </p>
@@ -395,7 +391,7 @@ export default function Home() {
                             </section>
                             <section>
                                 <h3>Renforcer les interconnexions entre la France et ses voisins représente un fort levier d’économie qui implique un degré d’interdépendance entre partenaires européens</h3>
-                                <p><b>Dans le même temps, la dépendance de la France envers les pays producteurs de pétrole et de gaz fossile disparaîtrait totalement : les scénarios de neutralité carbone sont bien des scénarios de très fort renforcement de la souveraineté énergétique.</b></p>
+                                <p className="font-medium">Dans le même temps, la dépendance de la France envers les pays producteurs de pétrole et de gaz fossile disparaîtrait totalement : les scénarios de neutralité carbone sont bien des scénarios de très fort renforcement de la souveraineté énergétique.</p>
                             </section>
                             <section>
                                 <h3>La construction de nouvelles centrales thermiques appuyées sur des stockages de longue durée en « gaz décarbonés » est une nécessité dans les scénarios sans relance forte du nucléaire</h3>
@@ -420,7 +416,7 @@ export default function Home() {
                             <h2>Dans tous les scénarios, les réseaux électriques doivent être rapidement redimensionnés pour rendre possible la transition énergétique</h2>
                             <section>
                                 <h3>Les réseaux sont au cœur de la transition énergétique</h3>
-                                <p><b>Ces réseaux vont devoir accélérer leur transformation de manière à rendre possible la transition énergétique.</b></p>
+                                <p className="font-medium">Ces réseaux vont devoir accélérer leur transformation de manière à rendre possible la transition énergétique.</p>
                             </section>
                             <section>
                                 <p><span className={"emoji"}>ℹ️</span> Le réseau de transport : des évolutions structurelles dès 2030, et beaucoup plus importantes dans les scénarios 100 % renouvelable</p>
@@ -715,7 +711,7 @@ export default function Home() {
                                 <h3>La troisième urgence concerne la transformation des deux appareils de production d’énergies décarbonées qui subsisteront en 2050 : les bioénergies d’une part, l’électricité d’autre part</h3>
                                 <p>La définition du système électrique de demain constitue le cœur des « Futurs énergétiques 2050 » qui dessinent puis comparent les chemins possibles pour une France bas-carbone insérée dans l’Europe. L’étude révèle un certain nombre d’urgences d’ordre industriel.</p>
                                 <p>Il est nécessaire, en toute hypothèse, de faciliter et d’accélérer par tous les moyens possibles l’installation de modes de production d’électricité bas-carbone. Les délais effectifs ou projetés en l’état, l’autorisation puis la construction de champs d’éoliennes terrestres ou en mer, de fermes photovoltaïques, ou encore de nouveaux réacteurs nucléaires sont très longs, et renvoient l’essentiel des mises en service de ce qui serait décidé aujourd’hui au-delà de 2030.</p>
-                                <p><b>De tels délais ne sont pas compatibles avec l’ambition de réduire les émissions du pays, surtout si on renonce à l’une ou l’autre de ces trois grandes technologies.</b></p>
+                                <p className="font-medium">De tels délais ne sont pas compatibles avec l’ambition de réduire les émissions du pays, surtout si on renonce à l’une ou l’autre de ces trois grandes technologies.</p>
                                 <Zoom>
                                     <img src="/img/evol-emis-carbone-puits.png" alt="Evolutions des émissions et des puits de gaz à effet de serre"/>
                                 </Zoom>
