@@ -4,12 +4,12 @@
 /* eslint-disable react-hooks/refs -- passer sectionRefs[i] en prop ref est le
    pattern attendu par react-use-scrollspy, pas une lecture de ref au rendu */
 
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef } from "react";
 import Image from "next/image";
-import { ArrowUp } from "lucide-react";
 import useScrollSpy from "react-use-scrollspy";
 import Zoom from "react-medium-image-zoom";
-import { Button, LinkButton } from "@/components/ui/button";
+import { LinkButton } from "@/components/ui/button";
+import { BackToTop } from "@/components/back-to-top";
 import { ClimateLabBadge } from "@/components/climatelab-badge";
 import { PageHero } from "@/components/page-hero";
 import { MadeWithLove } from "@/components/made-with-love";
@@ -23,28 +23,6 @@ const titles = [
   { name: "🌱 Espace et environnement", id: "env" },
   { name: "🗺️ Général", id: "general" },
 ];
-
-function BackToTop() {
-  const [show, setShow] = useState(false);
-  useEffect(() => {
-    const onScroll = () => setShow(window.scrollY > 200);
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
-  return (
-    <Button
-      variant="outline"
-      size="icon"
-      aria-label="Revenir en haut de la page"
-      onPress={() => window.scrollTo({ top: 0 })}
-      className={`fixed right-5 bottom-5 z-50 transition-all duration-300 ${
-        show ? "translate-y-0 opacity-100" : "pointer-events-none translate-y-16 opacity-0"
-      }`}
-    >
-      <ArrowUp className="h-4 w-4" />
-    </Button>
-  );
-}
 
 export default function Home() {
   const sectionRefs = [
@@ -737,7 +715,7 @@ export default function Home() {
         </div>
       </div>
 
-      <BackToTop />
+      <BackToTop threshold={200} />
       <MadeWithLove className="pb-8" />
     </>
   );
