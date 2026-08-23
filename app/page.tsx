@@ -11,6 +11,7 @@ import useScrollSpy from "react-use-scrollspy";
 import Zoom from "react-medium-image-zoom";
 import { Button, LinkButton } from "@/components/ui/button";
 import { ClimateLabBadge } from "@/components/climatelab-badge";
+import { PageHero } from "@/components/page-hero";
 import { MadeWithLove } from "@/components/made-with-love";
 
 const titles = [
@@ -66,23 +67,25 @@ export default function Home() {
         <ClimateLabBadge />
       </div>
 
-      <section className="mt-8 mb-6 flex flex-col items-center px-4 text-center sm:mt-12">
-        <Image
-          src="https://em-content.zobj.net/source/apple/419/compass_1f9ed.png"
-          alt=""
-          width={72}
-          height={72}
-          unoptimized
-        />
-        <h1 className="mt-4 text-4xl font-bold tracking-tight sm:text-6xl">
-          Neutral
-        </h1>
-        <p className="mt-3 max-w-xl text-base leading-relaxed text-pretty text-muted-foreground sm:text-lg">
-          <span className="font-medium text-foreground">Se repérer</span> au
-          travers de la transition énergétique : le résumé des «&nbsp;Futurs
-          énergétiques 2050&nbsp;» de RTE.
-        </p>
-      </section>
+      <PageHero
+        align="center"
+        width="xl"
+        title="Neutral"
+        className="mt-8 mb-6 px-4 sm:mt-12"
+        media={
+          <Image
+            src="https://em-content.zobj.net/source/apple/419/compass_1f9ed.png"
+            alt=""
+            width={72}
+            height={72}
+            unoptimized
+          />
+        }
+      >
+        <span className="font-medium text-foreground">Se repérer</span> au
+        travers de la transition énergétique : le résumé des «&nbsp;Futurs
+        énergétiques 2050&nbsp;» de RTE.
+      </PageHero>
 
       <nav
         aria-label="Navigation rapide"
