@@ -137,6 +137,20 @@ export default function Home() {
                             <p><span className={"emoji"}>ℹ️</span> Pendant votre lecture, il faut garder en tête que le rapport part du principe que la France ne change pas du paradigme économique actuel, le capitalisme.</p>
                         </article>
                         <article>
+                            <div className="rounded-xl border border-primary/20 bg-primary/5 p-5 sm:p-6">
+                                <h2 className="mt-0">Ce qui a bougé depuis 2021</h2>
+                                <p>RTE réactualise ses « Futurs énergétiques 2050 » : une <a target="_blank" rel="noopener noreferrer" href="https://assets.rte-france.com/prod/public/2026-04/RTE-Reactualisation-FE-2050-consultation-publique-2026-propositions-detaillees.pdf">consultation publique</a> (avril 2026) et le <a target="_blank" rel="noopener noreferrer" href="https://assets.rte-france.com/prod/public/2025-12/2025-12-09-BP2025-resume-executif-synthese.pdf">Bilan prévisionnel 2025</a> annoncent déjà les grandes révisions, avant l&apos;étude complète attendue fin 2026 :</p>
+                                <ul>
+                                    <li>La consommation d&apos;électricité de référence pour 2050 monte d&apos;environ 645 à <b>850 TWh</b> (plage 650-1&nbsp;000) : bioénergies et puits de carbone moins disponibles qu&apos;espéré, transport international intégré. À court terme, en revanche, l&apos;électrification avance moins vite que prévu.</li>
+                                    <li>La prolongation des réacteurs existants <b>au-delà de 60 ans</b> (70 voire 80 ans, comme aux États-Unis) est désormais étudiée : environ 40 GW du parc actuel seraient encore en service en 2050, contre 15,5 GW supposés en 2021. L&apos;avis de l&apos;ASNR (qui a succédé à l&apos;ASN en 2025) est attendu.</li>
+                                    <li>La grille de scénarios devient <b>M0, M2, N1, N3, N4</b> : M1 (solaire diffus) et N2 disparaissent, N4 (relance nucléaire maximale sans nouveaux parcs éolien et solaire) apparaît, jugé hors de portée industrielle par RTE.</li>
+                                    <li>Le plafond de construction neuve reste 14 EPR2 et quelques GW de SMR, avec un premier réacteur vers <b>2038</b> (et non 2035).</li>
+                                    <li>La comparaison des coûts complets, conclusion phare de 2021, sera réactualisée dans l&apos;étude finale (coût du capital de référence relevé de 4 à 6&nbsp;%).</li>
+                                </ul>
+                                <p className="mb-0">Les chiffres ci-dessous restent ceux de l&apos;édition 2021, la dernière étude complète publiée. Pour manipuler les nouvelles bornes, direction <a href="https://mix.climatelab.fr">Mix</a>, le simulateur du mix électrique 2050.</p>
+                            </div>
+                        </article>
+                        <article>
                             <h2>État des lieux</h2>
 
                             <section>
@@ -303,7 +317,7 @@ export default function Home() {
                                 <h3>Développer significativement les énergies renouvelables en France est, dans tous les cas, absolument indispensable pour atteindre la neutralité carbone</h3>
                                 <ul>
                                     <li>Même un parc nucléaire constitué de réacteurs prolongés et d’un nombre important de nouveaux réacteurs ne peut suffire à assurer l’alimentation d’une consommation de 645 TWh d’ici 30 ans, et a fortiori d’une consommation de 750 TWh. L’étude conclut, sans aucune ambiguïté, au caractère indispensable d’un développement soutenu des énergies renouvelables électriques en France pour respecter ses engagements climatiques.</li>
-                                    <li className={"info"}><span className={"emoji"}>ℹ️</span> À titre de comparaison, le parc actuel complété du réacteur EPR de Flamanville représentera une puissance installée de 63 GW</li>
+                                    <li className={"info"}><span className={"emoji"}>ℹ️</span> À titre de comparaison, le parc actuel, EPR de Flamanville compris (raccordé fin 2024), représente une puissance installée de 63 GW</li>
                                     <li>Pour y arriver, il est nécessaire de les développer partout où c’est possible : solaire, éolien terrestre ou maritime, sans oublier l’hydraulique dont le potentiel de croissance doit être utilisé là où cela est encore possible dans le respect des normes environnementales.</li>
                                     <li>Tous les scénarios européens prévoient un fort développement du solaire photovoltaïque et ceux envisageables pour la France n’y font pas exception : d’ici 30 ans, il faudra avoir porté le parc au minimum à 70 GW (plus de 200 GW dans la trajectoire la plus haute). Ces chiffres ne sont pas exceptionnels par rapport aux prévisions des pays voisins même s’ils représentent une croissance relative impressionnante au regard de la taille limitée du parc actuel (10 GW, contre 13 au Royaume-Uni, 14 en Espagne, 21 en Italie et 54 en Allemagne).</li>
                                     <li><b>Respecter les objectifs climatiques passe aussi nécessairement par un développement de l’éolien</b>, qui constitue aujourd’hui une technologie mature aux coûts de production faibles, susceptible de produire des volumes d’électricité importants. S’il sera possible de « doser » entre l’éolien terrestre et l’éolien en mer en fonction des opportunités économiques et des problématiques d’acceptabilité, un parc minimal d’une quarantaine de gigawatts d’éolien terrestre, ainsi que la construction d’un parc d’éoliennes en mer de l’ordre de 25 GW, apparaissent nécessaires. Atteindre ces niveaux ne soulève pas d’enjeu économique ou technique (sauf sur l’éolien en mer flottant), mais bien une question d’acceptabilité même si celle-ci doit être mise en regard de comparatifs européens : l’Allemagne s’est déjà dotée d’une capacité de production éolienne terrestre de 50 GW en 15 ans, le Danemark atteint 4,5 GW pour un pays d’une surface représentant moins de 8% de celle de la France métropolitaine, et le Royaume-Uni – qui a développé en 20 années un parc de 10 GW d’éoliennes en mer – atteindra 20 GW d’ici 2030.</li>
@@ -694,7 +708,7 @@ export default function Home() {
                                 <h3>La première de ces urgences est de répondre à la crise climatique en mettant le pays sur une trajectoire de décarbonation</h3>
                                 <p className={"mb-0"}>Cette trajectoire est déjà engagée, mais elle devra passer dans le futur par des jalons ambitieux :                                </p>
                                 <ul className={"mt-2"}>
-                                        <li><span className={"emoji"}>&#9989;</span> Celui d’une réduction de 55% des émissions nettes en 2030 (par rapport à 1990) adopté cette année par l’Union européenne.</li>
+                                        <li><span className={"emoji"}>&#9989;</span> Celui d’une réduction de 55% des émissions nettes en 2030 (par rapport à 1990) adopté en 2021 par l’Union européenne.</li>
                                         <li><span className={"emoji"}>&#9989;</span> Des émissions encore plus faibles en 2040, jusqu’à la neutralité carbone complète en 2050. </li>
                                     </ul>
                                 <p>À cette échéance, la France ne devra plus émettre que de manière marginale, à la hauteur de ses puits de carbone (essentiellement la forêt et les cultures).</p>
