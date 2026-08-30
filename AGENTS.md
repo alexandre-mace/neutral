@@ -1,3 +1,13 @@
+# Neutral
+
+Résumé des Futurs énergétiques 2050 de RTE : les scénarios de production et de consommation électriques permettant la neutralité carbone.
+
+## Commandes
+
+- `pnpm dev` développement
+- `pnpm build` build de production, et c'est le contrôle : il type-check et échoue sur une erreur de compilation
+- `pnpm lint`
+
 <!-- BEGIN:nextjs-agent-rules -->
 
 # This is NOT the Next.js you know
